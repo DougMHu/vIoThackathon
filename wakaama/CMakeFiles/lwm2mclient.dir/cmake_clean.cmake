@@ -1,0 +1,42 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/lwm2mclient.dir/lwm2mclient.c.o"
+  "CMakeFiles/lwm2mclient.dir/dht11.c.o"
+  "CMakeFiles/lwm2mclient.dir/system_api.c.o"
+  "CMakeFiles/lwm2mclient.dir/object_security.c.o"
+  "CMakeFiles/lwm2mclient.dir/object_server.c.o"
+  "CMakeFiles/lwm2mclient.dir/object_device.c.o"
+  "CMakeFiles/lwm2mclient.dir/object_firmware.c.o"
+  "CMakeFiles/lwm2mclient.dir/object_location.c.o"
+  "CMakeFiles/lwm2mclient.dir/object_connectivity_moni.c.o"
+  "CMakeFiles/lwm2mclient.dir/object_connectivity_stat.c.o"
+  "CMakeFiles/lwm2mclient.dir/object_access_control.c.o"
+  "CMakeFiles/lwm2mclient.dir/test_object.c.o"
+  "CMakeFiles/lwm2mclient.dir/core/liblwm2m.c.o"
+  "CMakeFiles/lwm2mclient.dir/core/uri.c.o"
+  "CMakeFiles/lwm2mclient.dir/core/utils.c.o"
+  "CMakeFiles/lwm2mclient.dir/core/objects.c.o"
+  "CMakeFiles/lwm2mclient.dir/core/tlv.c.o"
+  "CMakeFiles/lwm2mclient.dir/core/data.c.o"
+  "CMakeFiles/lwm2mclient.dir/core/list.c.o"
+  "CMakeFiles/lwm2mclient.dir/core/packet.c.o"
+  "CMakeFiles/lwm2mclient.dir/core/transaction.c.o"
+  "CMakeFiles/lwm2mclient.dir/core/registration.c.o"
+  "CMakeFiles/lwm2mclient.dir/core/bootstrap.c.o"
+  "CMakeFiles/lwm2mclient.dir/core/management.c.o"
+  "CMakeFiles/lwm2mclient.dir/core/observe.c.o"
+  "CMakeFiles/lwm2mclient.dir/core/json.c.o"
+  "CMakeFiles/lwm2mclient.dir/core/discover.c.o"
+  "CMakeFiles/lwm2mclient.dir/core/block1.c.o"
+  "CMakeFiles/lwm2mclient.dir/core/er-coap-13/er-coap-13.c.o"
+  "CMakeFiles/lwm2mclient.dir/examples/shared/commandline.c.o"
+  "CMakeFiles/lwm2mclient.dir/examples/shared/platform.c.o"
+  "CMakeFiles/lwm2mclient.dir/examples/shared/memtrace.c.o"
+  "CMakeFiles/lwm2mclient.dir/examples/shared/connection.c.o"
+  "lwm2mclient.pdb"
+  "lwm2mclient"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/lwm2mclient.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

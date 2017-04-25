@@ -1,0 +1,3 @@
+/home/pi/wakaama/CMakeFiles/edit_cache.dir
+/home/pi/wakaama/CMakeFiles/rebuild_cache.dir
+/home/pi/wakaama/CMakeFiles/lwm2mclient.dir
