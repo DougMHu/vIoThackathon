@@ -196,7 +196,7 @@ static uint8_t prv_read(uint16_t instanceId,
         case 3:
 	  //	    lwm2m_data_encode_float(targetP->dec, *dataArrayP + i  );
 	  // ERIC
-  	    lwm2m_data_encode_float(100.0, *dataArrayP + i  );
+  	    lwm2m_data_encode_float(y, *dataArrayP + i  );
             break;
         case 5550:
             lwm2m_data_encode_int(1, *dataArrayP + i);
@@ -215,7 +215,7 @@ static uint8_t prv_read(uint16_t instanceId,
             fprintf(stderr, " value b4 %f \n", (*dataArrayP)->value);
             //lwm2m_data_encode_float((double)temp, *dataArrayP + i );
 	    //ERIC
-            lwm2m_data_encode_float(80.0, *dataArrayP + i );
+            lwm2m_data_encode_float(x, *dataArrayP + i );
             fprintf(stderr, " type aftr %d \n", (*dataArrayP)->type);
             fprintf(stderr, " id aftr %d \n", (*dataArrayP)->id);
             fprintf(stderr, " value aftr %f \n", (*dataArrayP)->value);
