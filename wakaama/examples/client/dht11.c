@@ -82,9 +82,10 @@ float read_dht_dataTemp()
         float f = c * 1.8f + 32;
         printf( "Humidity = %.1f %% Temperature = %.1f *C (%.1f *F)\n", h, c, f );
         printf( "return value %f \n", f);
-        return f;
+	//        return f;
+	return 100.0;
     }else  {
-        return 32.0;
+        return 77.0;
     }
 }
  

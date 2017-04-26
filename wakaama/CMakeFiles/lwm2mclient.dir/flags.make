@@ -6,5 +6,5 @@ C_FLAGS =
 
 C_DEFINES = -DLWM2M_BOOTSTRAP -DLWM2M_CLIENT_MODE -DLWM2M_LITTLE_ENDIAN -DLWM2M_SUPPORT_JSON
 
-C_INCLUDES = -I/home/pi/wakaama/core -I/home/pi/wakaama/examples/shared 
+C_INCLUDES = -I/home/pi/vIoThackathon/wakaama/core -I/home/pi/vIoThackathon/wakaama/examples/shared 
 

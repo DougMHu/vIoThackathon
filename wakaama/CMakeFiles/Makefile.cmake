@@ -10,7 +10,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.6.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.6.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.6.2/CMakeSystem.cmake"
-  "CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c"
   "core/wakaama.cmake"
   "examples/client/CMakeLists.txt"
   "examples/shared/shared.cmake"
@@ -21,12 +20,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.6/Modules/CMakeLanguageInformation.cmake"
   "/usr/share/cmake-3.6/Modules/CMakeSystemSpecificInformation.cmake"
   "/usr/share/cmake-3.6/Modules/CMakeSystemSpecificInitialize.cmake"
-  "/usr/share/cmake-3.6/Modules/CMakeUnixFindMake.cmake"
-  "/usr/share/cmake-3.6/Modules/CheckIncludeFile.c.in"
-  "/usr/share/cmake-3.6/Modules/CheckIncludeFile.cmake"
-  "/usr/share/cmake-3.6/Modules/CheckIncludeFileCXX.cmake"
-  "/usr/share/cmake-3.6/Modules/CheckTypeSize.c.in"
-  "/usr/share/cmake-3.6/Modules/CheckTypeSize.cmake"
   "/usr/share/cmake-3.6/Modules/Compiler/GNU-C.cmake"
   "/usr/share/cmake-3.6/Modules/Compiler/GNU-CXX.cmake"
   "/usr/share/cmake-3.6/Modules/Compiler/GNU.cmake"
@@ -36,7 +29,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.6/Modules/Platform/Linux.cmake"
   "/usr/share/cmake-3.6/Modules/Platform/UnixPaths.cmake"
   "/usr/share/cmake-3.6/Modules/TestBigEndian.cmake"
-  "/usr/share/cmake-3.6/Modules/TestEndianess.c.in"
   )
 
 # The corresponding makefile is:
@@ -47,7 +39,6 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-  "CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 

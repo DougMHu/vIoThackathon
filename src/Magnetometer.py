@@ -1,11 +1,15 @@
 from i2clibraries.i2c_hmc5883l import i2c_hmc5883l
-import sys, time, argparse, logging
+import sys, time, argparse, logging, math
 from gpiozero import OutputDevice
 
 logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 
 class Magnetometer(object):
+
+    lower_bound = 0.88  # (in Gauss) setting for highest resolution (lowest conversion factor)
+    low_factor = 0.73   # corresponding conversion factor (mGauss / least significant bit) 
+    factor = low_factor
 
     def __init__(self, pin, i2c_port=1):
         """
@@ -14,7 +18,7 @@ class Magnetometer(object):
         """ 
         self.gpio = OutputDevice(pin)
         logger.info("Configured GPIO pin %d for magnetometer power" % pin)
-        self.hmc = i2c_hmc5883l(i2c_port)
+        self.hmc = i2c_hmc5883l(i2c_port, gauss=self.lower_bound)
         logger.info("Initialized I2C communication at port %d" % i2c_port)
 
     def turnOn(self):
@@ -39,9 +43,23 @@ class Magnetometer(object):
         Returns (x,y,z)
         """
         self.hmc.setSingleShotMode()
-        x, y, z = hmc.getAxes()
-        if any([math.isnan(i) for i in (x,y,z)]):
- 
+        self.hmc.setScale(self.lower_bound)  # initialize to highest resolution
+        self.factor = self.low_factor
+        x, y, z = self.hmc.getAxes()
+        # If scale is not large enough, lower resolution
+        while any([math.isnan(i) for i in (x,y,z)]):
+            logger.info("Magnetic field is strong... Increasing digital scale (decreasing resolution)")
+            new_factor = self.hmc.upScale()
+            if new_factor:
+                self.factor = new_factor
+                x, y, z = self.hmc.getAxes()
+            # If scale cannot increase further, give up but warn the user
+            else:
+                logger.warning("Magnetic field too strong! Caused digital overflow! Outputing NaN measurements.")
+                break
+        logger.info("Got x=%f, y=%f, z=%f, factor=%f" % (x, y, z, self.factor))
+        xGauss, yGauss, zGauss = [self.factor*i for i in (x,y,z)] # convert to Gauss
+        return (xGauss, yGauss, zGauss)
 
     def takeSamples(self, n=10, freq=5):
         pass

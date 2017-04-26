@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/pi/wakaama/core/block1.c
+/home/pi/vIoThackathon/wakaama/core/block1.c
 internals.h
-/home/pi/wakaama/core/internals.h
+/home/pi/vIoThackathon/wakaama/core/internals.h
 stdlib.h
 -
 string.h
@@ -16,9 +16,9 @@ string.h
 stdio.h
 -
 
-/home/pi/wakaama/core/bootstrap.c
+/home/pi/vIoThackathon/wakaama/core/bootstrap.c
 internals.h
-/home/pi/wakaama/core/internals.h
+/home/pi/vIoThackathon/wakaama/core/internals.h
 stdlib.h
 -
 string.h
@@ -26,17 +26,17 @@ string.h
 stdio.h
 -
 
-/home/pi/wakaama/core/data.c
+/home/pi/vIoThackathon/wakaama/core/data.c
 internals.h
-/home/pi/wakaama/core/internals.h
+/home/pi/vIoThackathon/wakaama/core/internals.h
 float.h
 -
 
-/home/pi/wakaama/core/discover.c
+/home/pi/vIoThackathon/wakaama/core/discover.c
 internals.h
-/home/pi/wakaama/core/internals.h
+/home/pi/vIoThackathon/wakaama/core/internals.h
 
-/home/pi/wakaama/core/er-coap-13/er-coap-13.c
+/home/pi/vIoThackathon/wakaama/core/er-coap-13/er-coap-13.c
 stdlib.h
 -
 string.h
@@ -44,21 +44,21 @@ string.h
 stdio.h
 -
 er-coap-13.h
-/home/pi/wakaama/core/er-coap-13/er-coap-13.h
+/home/pi/vIoThackathon/wakaama/core/er-coap-13/er-coap-13.h
 liblwm2m.h
-/home/pi/wakaama/core/er-coap-13/liblwm2m.h
+/home/pi/vIoThackathon/wakaama/core/er-coap-13/liblwm2m.h
 stdio.h
 -
 
-/home/pi/wakaama/core/er-coap-13/er-coap-13.h
+/home/pi/vIoThackathon/wakaama/core/er-coap-13/er-coap-13.h
 stdint.h
 -
 stddef.h
 -
 
-/home/pi/wakaama/core/internals.h
+/home/pi/vIoThackathon/wakaama/core/internals.h
 liblwm2m.h
-/home/pi/wakaama/core/liblwm2m.h
+/home/pi/vIoThackathon/wakaama/core/liblwm2m.h
 stdlib.h
 -
 string.h
@@ -72,13 +72,13 @@ stddef.h
 stdbool.h
 -
 er-coap-13/er-coap-13.h
-/home/pi/wakaama/core/er-coap-13/er-coap-13.h
+/home/pi/vIoThackathon/wakaama/core/er-coap-13/er-coap-13.h
 inttypes.h
 -
 
-/home/pi/wakaama/core/json.c
+/home/pi/vIoThackathon/wakaama/core/json.c
 internals.h
-/home/pi/wakaama/core/internals.h
+/home/pi/vIoThackathon/wakaama/core/internals.h
 stdlib.h
 -
 string.h
@@ -88,9 +88,9 @@ stdio.h
 inttypes.h
 -
 
-/home/pi/wakaama/core/liblwm2m.c
+/home/pi/vIoThackathon/wakaama/core/liblwm2m.c
 internals.h
-/home/pi/wakaama/core/internals.h
+/home/pi/vIoThackathon/wakaama/core/internals.h
 stdlib.h
 -
 string.h
@@ -98,7 +98,7 @@ string.h
 stdio.h
 -
 
-/home/pi/wakaama/core/liblwm2m.h
+/home/pi/vIoThackathon/wakaama/core/liblwm2m.h
 stdint.h
 -
 stddef.h
@@ -108,19 +108,19 @@ stdbool.h
 time.h
 -
 
-/home/pi/wakaama/core/list.c
+/home/pi/vIoThackathon/wakaama/core/list.c
 internals.h
-/home/pi/wakaama/core/internals.h
+/home/pi/vIoThackathon/wakaama/core/internals.h
 
-/home/pi/wakaama/core/management.c
+/home/pi/vIoThackathon/wakaama/core/management.c
 internals.h
-/home/pi/wakaama/core/internals.h
+/home/pi/vIoThackathon/wakaama/core/internals.h
 stdio.h
 -
 
-/home/pi/wakaama/core/objects.c
+/home/pi/vIoThackathon/wakaama/core/objects.c
 internals.h
-/home/pi/wakaama/core/internals.h
+/home/pi/vIoThackathon/wakaama/core/internals.h
 stdlib.h
 -
 string.h
@@ -128,15 +128,15 @@ string.h
 stdio.h
 -
 
-/home/pi/wakaama/core/observe.c
+/home/pi/vIoThackathon/wakaama/core/observe.c
 internals.h
-/home/pi/wakaama/core/internals.h
+/home/pi/vIoThackathon/wakaama/core/internals.h
 stdio.h
 -
 
-/home/pi/wakaama/core/packet.c
+/home/pi/vIoThackathon/wakaama/core/packet.c
 internals.h
-/home/pi/wakaama/core/internals.h
+/home/pi/vIoThackathon/wakaama/core/internals.h
 stdlib.h
 -
 string.h
@@ -144,9 +144,9 @@ string.h
 stdio.h
 -
 
-/home/pi/wakaama/core/registration.c
+/home/pi/vIoThackathon/wakaama/core/registration.c
 internals.h
-/home/pi/wakaama/core/internals.h
+/home/pi/vIoThackathon/wakaama/core/internals.h
 stdlib.h
 -
 string.h
@@ -154,9 +154,9 @@ string.h
 stdio.h
 -
 
-/home/pi/wakaama/core/tlv.c
+/home/pi/vIoThackathon/wakaama/core/tlv.c
 internals.h
-/home/pi/wakaama/core/internals.h
+/home/pi/vIoThackathon/wakaama/core/internals.h
 stdlib.h
 -
 string.h
@@ -168,13 +168,13 @@ inttypes.h
 float.h
 -
 
-/home/pi/wakaama/core/transaction.c
+/home/pi/vIoThackathon/wakaama/core/transaction.c
 internals.h
-/home/pi/wakaama/core/internals.h
+/home/pi/vIoThackathon/wakaama/core/internals.h
 
-/home/pi/wakaama/core/uri.c
+/home/pi/vIoThackathon/wakaama/core/uri.c
 internals.h
-/home/pi/wakaama/core/internals.h
+/home/pi/vIoThackathon/wakaama/core/internals.h
 stdlib.h
 -
 string.h
@@ -182,9 +182,9 @@ string.h
 ctype.h
 -
 
-/home/pi/wakaama/core/utils.c
+/home/pi/vIoThackathon/wakaama/core/utils.c
 internals.h
-/home/pi/wakaama/core/internals.h
+/home/pi/vIoThackathon/wakaama/core/internals.h
 stdlib.h
 -
 string.h
@@ -194,7 +194,7 @@ stdio.h
 float.h
 -
 
-/home/pi/wakaama/examples/client/dht11.c
+/home/pi/vIoThackathon/wakaama/examples/client/dht11.c
 wiringPi.h
 -
 stdio.h
@@ -204,17 +204,17 @@ stdlib.h
 stdint.h
 -
 
-/home/pi/wakaama/examples/client/lwm2mclient.c
+/home/pi/vIoThackathon/wakaama/examples/client/lwm2mclient.c
 lwm2mclient.h
-/home/pi/wakaama/examples/client/lwm2mclient.h
+/home/pi/vIoThackathon/wakaama/examples/client/lwm2mclient.h
 liblwm2m.h
-/home/pi/wakaama/examples/client/liblwm2m.h
+/home/pi/vIoThackathon/wakaama/examples/client/liblwm2m.h
 commandline.h
-/home/pi/wakaama/examples/client/commandline.h
+/home/pi/vIoThackathon/wakaama/examples/client/commandline.h
 dtlsconnection.h
-/home/pi/wakaama/examples/client/dtlsconnection.h
+/home/pi/vIoThackathon/wakaama/examples/client/dtlsconnection.h
 connection.h
-/home/pi/wakaama/examples/client/connection.h
+/home/pi/vIoThackathon/wakaama/examples/client/connection.h
 string.h
 -
 stdlib.h
@@ -244,13 +244,13 @@ errno.h
 signal.h
 -
 
-/home/pi/wakaama/examples/client/lwm2mclient.h
+/home/pi/vIoThackathon/wakaama/examples/client/lwm2mclient.h
 liblwm2m.h
-/home/pi/wakaama/examples/client/liblwm2m.h
+/home/pi/vIoThackathon/wakaama/examples/client/liblwm2m.h
 
-/home/pi/wakaama/examples/client/object_access_control.c
+/home/pi/vIoThackathon/wakaama/examples/client/object_access_control.c
 liblwm2m.h
-/home/pi/wakaama/examples/client/liblwm2m.h
+/home/pi/vIoThackathon/wakaama/examples/client/liblwm2m.h
 stdio.h
 -
 stdlib.h
@@ -260,9 +260,9 @@ string.h
 ctype.h
 -
 
-/home/pi/wakaama/examples/client/object_connectivity_moni.c
+/home/pi/vIoThackathon/wakaama/examples/client/object_connectivity_moni.c
 liblwm2m.h
-/home/pi/wakaama/examples/client/liblwm2m.h
+/home/pi/vIoThackathon/wakaama/examples/client/liblwm2m.h
 stdio.h
 -
 stdlib.h
@@ -272,9 +272,9 @@ string.h
 ctype.h
 -
 
-/home/pi/wakaama/examples/client/object_connectivity_stat.c
+/home/pi/vIoThackathon/wakaama/examples/client/object_connectivity_stat.c
 liblwm2m.h
-/home/pi/wakaama/examples/client/liblwm2m.h
+/home/pi/vIoThackathon/wakaama/examples/client/liblwm2m.h
 stdio.h
 -
 stdlib.h
@@ -284,11 +284,11 @@ string.h
 ctype.h
 -
 
-/home/pi/wakaama/examples/client/object_device.c
+/home/pi/vIoThackathon/wakaama/examples/client/object_device.c
 liblwm2m.h
-/home/pi/wakaama/examples/client/liblwm2m.h
+/home/pi/vIoThackathon/wakaama/examples/client/liblwm2m.h
 lwm2mclient.h
-/home/pi/wakaama/examples/client/lwm2mclient.h
+/home/pi/vIoThackathon/wakaama/examples/client/lwm2mclient.h
 stdio.h
 -
 stdlib.h
@@ -300,9 +300,9 @@ ctype.h
 time.h
 -
 
-/home/pi/wakaama/examples/client/object_firmware.c
+/home/pi/vIoThackathon/wakaama/examples/client/object_firmware.c
 liblwm2m.h
-/home/pi/wakaama/examples/client/liblwm2m.h
+/home/pi/vIoThackathon/wakaama/examples/client/liblwm2m.h
 stdio.h
 -
 stdlib.h
@@ -312,9 +312,9 @@ string.h
 ctype.h
 -
 
-/home/pi/wakaama/examples/client/object_location.c
+/home/pi/vIoThackathon/wakaama/examples/client/object_location.c
 liblwm2m.h
-/home/pi/wakaama/examples/client/liblwm2m.h
+/home/pi/vIoThackathon/wakaama/examples/client/liblwm2m.h
 stdio.h
 -
 stdlib.h
@@ -324,9 +324,9 @@ string.h
 time.h
 -
 
-/home/pi/wakaama/examples/client/object_security.c
+/home/pi/vIoThackathon/wakaama/examples/client/object_security.c
 liblwm2m.h
-/home/pi/wakaama/examples/client/liblwm2m.h
+/home/pi/vIoThackathon/wakaama/examples/client/liblwm2m.h
 stdlib.h
 -
 string.h
@@ -334,9 +334,9 @@ string.h
 stdio.h
 -
 
-/home/pi/wakaama/examples/client/object_server.c
+/home/pi/vIoThackathon/wakaama/examples/client/object_server.c
 liblwm2m.h
-/home/pi/wakaama/examples/client/liblwm2m.h
+/home/pi/vIoThackathon/wakaama/examples/client/liblwm2m.h
 stdio.h
 -
 stdlib.h
@@ -344,11 +344,11 @@ stdlib.h
 string.h
 -
 
-/home/pi/wakaama/examples/client/system_api.c
+/home/pi/vIoThackathon/wakaama/examples/client/system_api.c
 liblwm2m.h
-/home/pi/wakaama/examples/client/liblwm2m.h
+/home/pi/vIoThackathon/wakaama/examples/client/liblwm2m.h
 lwm2mclient.h
-/home/pi/wakaama/examples/client/lwm2mclient.h
+/home/pi/vIoThackathon/wakaama/examples/client/lwm2mclient.h
 stdio.h
 -
 string.h
@@ -356,13 +356,13 @@ string.h
 stdlib.h
 -
 
-/home/pi/wakaama/examples/client/test_object.c
+/home/pi/vIoThackathon/wakaama/examples/client/test_object.c
 wiringPi.h
 -
 liblwm2m.h
-/home/pi/wakaama/examples/client/liblwm2m.h
+/home/pi/vIoThackathon/wakaama/examples/client/liblwm2m.h
 lwm2mclient.h
-/home/pi/wakaama/examples/client/lwm2mclient.h
+/home/pi/vIoThackathon/wakaama/examples/client/lwm2mclient.h
 stdio.h
 -
 stdlib.h
@@ -372,7 +372,7 @@ string.h
 ctype.h
 -
 
-/home/pi/wakaama/examples/shared/commandline.c
+/home/pi/vIoThackathon/wakaama/examples/shared/commandline.c
 string.h
 -
 stdlib.h
@@ -386,15 +386,15 @@ unistd.h
 inttypes.h
 -
 liblwm2m.h
-/home/pi/wakaama/examples/shared/liblwm2m.h
+/home/pi/vIoThackathon/wakaama/examples/shared/liblwm2m.h
 commandline.h
-/home/pi/wakaama/examples/shared/commandline.h
+/home/pi/vIoThackathon/wakaama/examples/shared/commandline.h
 
-/home/pi/wakaama/examples/shared/commandline.h
+/home/pi/vIoThackathon/wakaama/examples/shared/commandline.h
 stdio.h
 -
 
-/home/pi/wakaama/examples/shared/connection.c
+/home/pi/vIoThackathon/wakaama/examples/shared/connection.c
 stdlib.h
 -
 string.h
@@ -402,9 +402,9 @@ string.h
 ctype.h
 -
 connection.h
-/home/pi/wakaama/examples/shared/connection.h
+/home/pi/vIoThackathon/wakaama/examples/shared/connection.h
 
-/home/pi/wakaama/examples/shared/connection.h
+/home/pi/vIoThackathon/wakaama/examples/shared/connection.h
 stdio.h
 -
 unistd.h
@@ -422,7 +422,7 @@ sys/stat.h
 liblwm2m.h
 -
 
-/home/pi/wakaama/examples/shared/dtlsconnection.h
+/home/pi/vIoThackathon/wakaama/examples/shared/dtlsconnection.h
 stdio.h
 -
 unistd.h
@@ -442,17 +442,17 @@ stdint.h
 stdbool.h
 -
 tinydtls/tinydtls.h
-/home/pi/wakaama/examples/shared/tinydtls/tinydtls.h
+/home/pi/vIoThackathon/wakaama/examples/shared/tinydtls/tinydtls.h
 tinydtls/dtls.h
-/home/pi/wakaama/examples/shared/tinydtls/dtls.h
+/home/pi/vIoThackathon/wakaama/examples/shared/tinydtls/dtls.h
 liblwm2m.h
-/home/pi/wakaama/examples/shared/liblwm2m.h
+/home/pi/vIoThackathon/wakaama/examples/shared/liblwm2m.h
 
-/home/pi/wakaama/examples/shared/memtrace.c
+/home/pi/vIoThackathon/wakaama/examples/shared/memtrace.c
 internals.h
-/home/pi/wakaama/examples/shared/internals.h
+/home/pi/vIoThackathon/wakaama/examples/shared/internals.h
 
-/home/pi/wakaama/examples/shared/platform.c
+/home/pi/vIoThackathon/wakaama/examples/shared/platform.c
 liblwm2m.h
 -
 stdlib.h

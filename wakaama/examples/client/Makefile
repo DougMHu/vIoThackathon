@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/wakaama/examples/client
+CMAKE_SOURCE_DIR = /home/pi/vIoThackathon/wakaama/examples/client
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/wakaama/examples/client
+CMAKE_BINARY_DIR = /home/pi/vIoThackathon/wakaama/examples/client
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/wakaama/examples/client/CMakeFiles /home/pi/wakaama/examples/client/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/vIoThackathon/wakaama/examples/client/CMakeFiles /home/pi/vIoThackathon/wakaama/examples/client/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/wakaama/examples/client/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/vIoThackathon/wakaama/examples/client/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -150,572 +150,572 @@ dht11.c.s:
 	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/dht11.c.s
 .PHONY : dht11.c.s
 
-home/pi/wakaama/core/block1.o: home/pi/wakaama/core/block1.c.o
+home/pi/vIoThackathon/wakaama/core/block1.o: home/pi/vIoThackathon/wakaama/core/block1.c.o
 
-.PHONY : home/pi/wakaama/core/block1.o
-
-# target to build an object file
-home/pi/wakaama/core/block1.c.o:
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/block1.c.o
-.PHONY : home/pi/wakaama/core/block1.c.o
-
-home/pi/wakaama/core/block1.i: home/pi/wakaama/core/block1.c.i
-
-.PHONY : home/pi/wakaama/core/block1.i
-
-# target to preprocess a source file
-home/pi/wakaama/core/block1.c.i:
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/block1.c.i
-.PHONY : home/pi/wakaama/core/block1.c.i
-
-home/pi/wakaama/core/block1.s: home/pi/wakaama/core/block1.c.s
-
-.PHONY : home/pi/wakaama/core/block1.s
-
-# target to generate assembly for a file
-home/pi/wakaama/core/block1.c.s:
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/block1.c.s
-.PHONY : home/pi/wakaama/core/block1.c.s
-
-home/pi/wakaama/core/bootstrap.o: home/pi/wakaama/core/bootstrap.c.o
-
-.PHONY : home/pi/wakaama/core/bootstrap.o
+.PHONY : home/pi/vIoThackathon/wakaama/core/block1.o
 
 # target to build an object file
-home/pi/wakaama/core/bootstrap.c.o:
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/bootstrap.c.o
-.PHONY : home/pi/wakaama/core/bootstrap.c.o
+home/pi/vIoThackathon/wakaama/core/block1.c.o:
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/block1.c.o
+.PHONY : home/pi/vIoThackathon/wakaama/core/block1.c.o
 
-home/pi/wakaama/core/bootstrap.i: home/pi/wakaama/core/bootstrap.c.i
+home/pi/vIoThackathon/wakaama/core/block1.i: home/pi/vIoThackathon/wakaama/core/block1.c.i
 
-.PHONY : home/pi/wakaama/core/bootstrap.i
+.PHONY : home/pi/vIoThackathon/wakaama/core/block1.i
 
 # target to preprocess a source file
-home/pi/wakaama/core/bootstrap.c.i:
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/bootstrap.c.i
-.PHONY : home/pi/wakaama/core/bootstrap.c.i
+home/pi/vIoThackathon/wakaama/core/block1.c.i:
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/block1.c.i
+.PHONY : home/pi/vIoThackathon/wakaama/core/block1.c.i
 
-home/pi/wakaama/core/bootstrap.s: home/pi/wakaama/core/bootstrap.c.s
+home/pi/vIoThackathon/wakaama/core/block1.s: home/pi/vIoThackathon/wakaama/core/block1.c.s
 
-.PHONY : home/pi/wakaama/core/bootstrap.s
+.PHONY : home/pi/vIoThackathon/wakaama/core/block1.s
 
 # target to generate assembly for a file
-home/pi/wakaama/core/bootstrap.c.s:
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/bootstrap.c.s
-.PHONY : home/pi/wakaama/core/bootstrap.c.s
+home/pi/vIoThackathon/wakaama/core/block1.c.s:
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/block1.c.s
+.PHONY : home/pi/vIoThackathon/wakaama/core/block1.c.s
 
-home/pi/wakaama/core/data.o: home/pi/wakaama/core/data.c.o
+home/pi/vIoThackathon/wakaama/core/bootstrap.o: home/pi/vIoThackathon/wakaama/core/bootstrap.c.o
 
-.PHONY : home/pi/wakaama/core/data.o
+.PHONY : home/pi/vIoThackathon/wakaama/core/bootstrap.o
 
 # target to build an object file
-home/pi/wakaama/core/data.c.o:
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/data.c.o
-.PHONY : home/pi/wakaama/core/data.c.o
+home/pi/vIoThackathon/wakaama/core/bootstrap.c.o:
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/bootstrap.c.o
+.PHONY : home/pi/vIoThackathon/wakaama/core/bootstrap.c.o
 
-home/pi/wakaama/core/data.i: home/pi/wakaama/core/data.c.i
+home/pi/vIoThackathon/wakaama/core/bootstrap.i: home/pi/vIoThackathon/wakaama/core/bootstrap.c.i
 
-.PHONY : home/pi/wakaama/core/data.i
+.PHONY : home/pi/vIoThackathon/wakaama/core/bootstrap.i
 
 # target to preprocess a source file
-home/pi/wakaama/core/data.c.i:
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/data.c.i
-.PHONY : home/pi/wakaama/core/data.c.i
+home/pi/vIoThackathon/wakaama/core/bootstrap.c.i:
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/bootstrap.c.i
+.PHONY : home/pi/vIoThackathon/wakaama/core/bootstrap.c.i
 
-home/pi/wakaama/core/data.s: home/pi/wakaama/core/data.c.s
+home/pi/vIoThackathon/wakaama/core/bootstrap.s: home/pi/vIoThackathon/wakaama/core/bootstrap.c.s
 
-.PHONY : home/pi/wakaama/core/data.s
+.PHONY : home/pi/vIoThackathon/wakaama/core/bootstrap.s
 
 # target to generate assembly for a file
-home/pi/wakaama/core/data.c.s:
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/data.c.s
-.PHONY : home/pi/wakaama/core/data.c.s
+home/pi/vIoThackathon/wakaama/core/bootstrap.c.s:
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/bootstrap.c.s
+.PHONY : home/pi/vIoThackathon/wakaama/core/bootstrap.c.s
 
-home/pi/wakaama/core/discover.o: home/pi/wakaama/core/discover.c.o
+home/pi/vIoThackathon/wakaama/core/data.o: home/pi/vIoThackathon/wakaama/core/data.c.o
 
-.PHONY : home/pi/wakaama/core/discover.o
+.PHONY : home/pi/vIoThackathon/wakaama/core/data.o
 
 # target to build an object file
-home/pi/wakaama/core/discover.c.o:
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/discover.c.o
-.PHONY : home/pi/wakaama/core/discover.c.o
+home/pi/vIoThackathon/wakaama/core/data.c.o:
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/data.c.o
+.PHONY : home/pi/vIoThackathon/wakaama/core/data.c.o
 
-home/pi/wakaama/core/discover.i: home/pi/wakaama/core/discover.c.i
+home/pi/vIoThackathon/wakaama/core/data.i: home/pi/vIoThackathon/wakaama/core/data.c.i
 
-.PHONY : home/pi/wakaama/core/discover.i
+.PHONY : home/pi/vIoThackathon/wakaama/core/data.i
 
 # target to preprocess a source file
-home/pi/wakaama/core/discover.c.i:
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/discover.c.i
-.PHONY : home/pi/wakaama/core/discover.c.i
+home/pi/vIoThackathon/wakaama/core/data.c.i:
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/data.c.i
+.PHONY : home/pi/vIoThackathon/wakaama/core/data.c.i
 
-home/pi/wakaama/core/discover.s: home/pi/wakaama/core/discover.c.s
+home/pi/vIoThackathon/wakaama/core/data.s: home/pi/vIoThackathon/wakaama/core/data.c.s
 
-.PHONY : home/pi/wakaama/core/discover.s
+.PHONY : home/pi/vIoThackathon/wakaama/core/data.s
 
 # target to generate assembly for a file
-home/pi/wakaama/core/discover.c.s:
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/discover.c.s
-.PHONY : home/pi/wakaama/core/discover.c.s
+home/pi/vIoThackathon/wakaama/core/data.c.s:
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/data.c.s
+.PHONY : home/pi/vIoThackathon/wakaama/core/data.c.s
 
-home/pi/wakaama/core/er-coap-13/er-coap-13.o: home/pi/wakaama/core/er-coap-13/er-coap-13.c.o
+home/pi/vIoThackathon/wakaama/core/discover.o: home/pi/vIoThackathon/wakaama/core/discover.c.o
 
-.PHONY : home/pi/wakaama/core/er-coap-13/er-coap-13.o
+.PHONY : home/pi/vIoThackathon/wakaama/core/discover.o
 
 # target to build an object file
-home/pi/wakaama/core/er-coap-13/er-coap-13.c.o:
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/er-coap-13/er-coap-13.c.o
-.PHONY : home/pi/wakaama/core/er-coap-13/er-coap-13.c.o
+home/pi/vIoThackathon/wakaama/core/discover.c.o:
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/discover.c.o
+.PHONY : home/pi/vIoThackathon/wakaama/core/discover.c.o
 
-home/pi/wakaama/core/er-coap-13/er-coap-13.i: home/pi/wakaama/core/er-coap-13/er-coap-13.c.i
+home/pi/vIoThackathon/wakaama/core/discover.i: home/pi/vIoThackathon/wakaama/core/discover.c.i
 
-.PHONY : home/pi/wakaama/core/er-coap-13/er-coap-13.i
+.PHONY : home/pi/vIoThackathon/wakaama/core/discover.i
 
 # target to preprocess a source file
-home/pi/wakaama/core/er-coap-13/er-coap-13.c.i:
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/er-coap-13/er-coap-13.c.i
-.PHONY : home/pi/wakaama/core/er-coap-13/er-coap-13.c.i
+home/pi/vIoThackathon/wakaama/core/discover.c.i:
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/discover.c.i
+.PHONY : home/pi/vIoThackathon/wakaama/core/discover.c.i
 
-home/pi/wakaama/core/er-coap-13/er-coap-13.s: home/pi/wakaama/core/er-coap-13/er-coap-13.c.s
+home/pi/vIoThackathon/wakaama/core/discover.s: home/pi/vIoThackathon/wakaama/core/discover.c.s
 
-.PHONY : home/pi/wakaama/core/er-coap-13/er-coap-13.s
+.PHONY : home/pi/vIoThackathon/wakaama/core/discover.s
 
 # target to generate assembly for a file
-home/pi/wakaama/core/er-coap-13/er-coap-13.c.s:
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/er-coap-13/er-coap-13.c.s
-.PHONY : home/pi/wakaama/core/er-coap-13/er-coap-13.c.s
+home/pi/vIoThackathon/wakaama/core/discover.c.s:
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/discover.c.s
+.PHONY : home/pi/vIoThackathon/wakaama/core/discover.c.s
 
-home/pi/wakaama/core/json.o: home/pi/wakaama/core/json.c.o
+home/pi/vIoThackathon/wakaama/core/er-coap-13/er-coap-13.o: home/pi/vIoThackathon/wakaama/core/er-coap-13/er-coap-13.c.o
 
-.PHONY : home/pi/wakaama/core/json.o
+.PHONY : home/pi/vIoThackathon/wakaama/core/er-coap-13/er-coap-13.o
 
 # target to build an object file
-home/pi/wakaama/core/json.c.o:
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/json.c.o
-.PHONY : home/pi/wakaama/core/json.c.o
+home/pi/vIoThackathon/wakaama/core/er-coap-13/er-coap-13.c.o:
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/er-coap-13/er-coap-13.c.o
+.PHONY : home/pi/vIoThackathon/wakaama/core/er-coap-13/er-coap-13.c.o
 
-home/pi/wakaama/core/json.i: home/pi/wakaama/core/json.c.i
+home/pi/vIoThackathon/wakaama/core/er-coap-13/er-coap-13.i: home/pi/vIoThackathon/wakaama/core/er-coap-13/er-coap-13.c.i
 
-.PHONY : home/pi/wakaama/core/json.i
+.PHONY : home/pi/vIoThackathon/wakaama/core/er-coap-13/er-coap-13.i
 
 # target to preprocess a source file
-home/pi/wakaama/core/json.c.i:
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/json.c.i
-.PHONY : home/pi/wakaama/core/json.c.i
+home/pi/vIoThackathon/wakaama/core/er-coap-13/er-coap-13.c.i:
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/er-coap-13/er-coap-13.c.i
+.PHONY : home/pi/vIoThackathon/wakaama/core/er-coap-13/er-coap-13.c.i
 
-home/pi/wakaama/core/json.s: home/pi/wakaama/core/json.c.s
+home/pi/vIoThackathon/wakaama/core/er-coap-13/er-coap-13.s: home/pi/vIoThackathon/wakaama/core/er-coap-13/er-coap-13.c.s
 
-.PHONY : home/pi/wakaama/core/json.s
+.PHONY : home/pi/vIoThackathon/wakaama/core/er-coap-13/er-coap-13.s
 
 # target to generate assembly for a file
-home/pi/wakaama/core/json.c.s:
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/json.c.s
-.PHONY : home/pi/wakaama/core/json.c.s
+home/pi/vIoThackathon/wakaama/core/er-coap-13/er-coap-13.c.s:
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/er-coap-13/er-coap-13.c.s
+.PHONY : home/pi/vIoThackathon/wakaama/core/er-coap-13/er-coap-13.c.s
 
-home/pi/wakaama/core/liblwm2m.o: home/pi/wakaama/core/liblwm2m.c.o
+home/pi/vIoThackathon/wakaama/core/json.o: home/pi/vIoThackathon/wakaama/core/json.c.o
 
-.PHONY : home/pi/wakaama/core/liblwm2m.o
+.PHONY : home/pi/vIoThackathon/wakaama/core/json.o
 
 # target to build an object file
-home/pi/wakaama/core/liblwm2m.c.o:
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/liblwm2m.c.o
-.PHONY : home/pi/wakaama/core/liblwm2m.c.o
+home/pi/vIoThackathon/wakaama/core/json.c.o:
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/json.c.o
+.PHONY : home/pi/vIoThackathon/wakaama/core/json.c.o
 
-home/pi/wakaama/core/liblwm2m.i: home/pi/wakaama/core/liblwm2m.c.i
+home/pi/vIoThackathon/wakaama/core/json.i: home/pi/vIoThackathon/wakaama/core/json.c.i
 
-.PHONY : home/pi/wakaama/core/liblwm2m.i
+.PHONY : home/pi/vIoThackathon/wakaama/core/json.i
 
 # target to preprocess a source file
-home/pi/wakaama/core/liblwm2m.c.i:
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/liblwm2m.c.i
-.PHONY : home/pi/wakaama/core/liblwm2m.c.i
+home/pi/vIoThackathon/wakaama/core/json.c.i:
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/json.c.i
+.PHONY : home/pi/vIoThackathon/wakaama/core/json.c.i
 
-home/pi/wakaama/core/liblwm2m.s: home/pi/wakaama/core/liblwm2m.c.s
+home/pi/vIoThackathon/wakaama/core/json.s: home/pi/vIoThackathon/wakaama/core/json.c.s
 
-.PHONY : home/pi/wakaama/core/liblwm2m.s
+.PHONY : home/pi/vIoThackathon/wakaama/core/json.s
 
 # target to generate assembly for a file
-home/pi/wakaama/core/liblwm2m.c.s:
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/liblwm2m.c.s
-.PHONY : home/pi/wakaama/core/liblwm2m.c.s
+home/pi/vIoThackathon/wakaama/core/json.c.s:
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/json.c.s
+.PHONY : home/pi/vIoThackathon/wakaama/core/json.c.s
 
-home/pi/wakaama/core/list.o: home/pi/wakaama/core/list.c.o
+home/pi/vIoThackathon/wakaama/core/liblwm2m.o: home/pi/vIoThackathon/wakaama/core/liblwm2m.c.o
 
-.PHONY : home/pi/wakaama/core/list.o
+.PHONY : home/pi/vIoThackathon/wakaama/core/liblwm2m.o
 
 # target to build an object file
-home/pi/wakaama/core/list.c.o:
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/list.c.o
-.PHONY : home/pi/wakaama/core/list.c.o
+home/pi/vIoThackathon/wakaama/core/liblwm2m.c.o:
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/liblwm2m.c.o
+.PHONY : home/pi/vIoThackathon/wakaama/core/liblwm2m.c.o
 
-home/pi/wakaama/core/list.i: home/pi/wakaama/core/list.c.i
+home/pi/vIoThackathon/wakaama/core/liblwm2m.i: home/pi/vIoThackathon/wakaama/core/liblwm2m.c.i
 
-.PHONY : home/pi/wakaama/core/list.i
+.PHONY : home/pi/vIoThackathon/wakaama/core/liblwm2m.i
 
 # target to preprocess a source file
-home/pi/wakaama/core/list.c.i:
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/list.c.i
-.PHONY : home/pi/wakaama/core/list.c.i
+home/pi/vIoThackathon/wakaama/core/liblwm2m.c.i:
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/liblwm2m.c.i
+.PHONY : home/pi/vIoThackathon/wakaama/core/liblwm2m.c.i
 
-home/pi/wakaama/core/list.s: home/pi/wakaama/core/list.c.s
+home/pi/vIoThackathon/wakaama/core/liblwm2m.s: home/pi/vIoThackathon/wakaama/core/liblwm2m.c.s
 
-.PHONY : home/pi/wakaama/core/list.s
+.PHONY : home/pi/vIoThackathon/wakaama/core/liblwm2m.s
 
 # target to generate assembly for a file
-home/pi/wakaama/core/list.c.s:
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/list.c.s
-.PHONY : home/pi/wakaama/core/list.c.s
+home/pi/vIoThackathon/wakaama/core/liblwm2m.c.s:
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/liblwm2m.c.s
+.PHONY : home/pi/vIoThackathon/wakaama/core/liblwm2m.c.s
 
-home/pi/wakaama/core/management.o: home/pi/wakaama/core/management.c.o
+home/pi/vIoThackathon/wakaama/core/list.o: home/pi/vIoThackathon/wakaama/core/list.c.o
 
-.PHONY : home/pi/wakaama/core/management.o
+.PHONY : home/pi/vIoThackathon/wakaama/core/list.o
 
 # target to build an object file
-home/pi/wakaama/core/management.c.o:
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/management.c.o
-.PHONY : home/pi/wakaama/core/management.c.o
+home/pi/vIoThackathon/wakaama/core/list.c.o:
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/list.c.o
+.PHONY : home/pi/vIoThackathon/wakaama/core/list.c.o
 
-home/pi/wakaama/core/management.i: home/pi/wakaama/core/management.c.i
+home/pi/vIoThackathon/wakaama/core/list.i: home/pi/vIoThackathon/wakaama/core/list.c.i
 
-.PHONY : home/pi/wakaama/core/management.i
+.PHONY : home/pi/vIoThackathon/wakaama/core/list.i
 
 # target to preprocess a source file
-home/pi/wakaama/core/management.c.i:
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/management.c.i
-.PHONY : home/pi/wakaama/core/management.c.i
+home/pi/vIoThackathon/wakaama/core/list.c.i:
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/list.c.i
+.PHONY : home/pi/vIoThackathon/wakaama/core/list.c.i
 
-home/pi/wakaama/core/management.s: home/pi/wakaama/core/management.c.s
+home/pi/vIoThackathon/wakaama/core/list.s: home/pi/vIoThackathon/wakaama/core/list.c.s
 
-.PHONY : home/pi/wakaama/core/management.s
+.PHONY : home/pi/vIoThackathon/wakaama/core/list.s
 
 # target to generate assembly for a file
-home/pi/wakaama/core/management.c.s:
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/management.c.s
-.PHONY : home/pi/wakaama/core/management.c.s
+home/pi/vIoThackathon/wakaama/core/list.c.s:
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/list.c.s
+.PHONY : home/pi/vIoThackathon/wakaama/core/list.c.s
 
-home/pi/wakaama/core/objects.o: home/pi/wakaama/core/objects.c.o
+home/pi/vIoThackathon/wakaama/core/management.o: home/pi/vIoThackathon/wakaama/core/management.c.o
 
-.PHONY : home/pi/wakaama/core/objects.o
+.PHONY : home/pi/vIoThackathon/wakaama/core/management.o
 
 # target to build an object file
-home/pi/wakaama/core/objects.c.o:
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/objects.c.o
-.PHONY : home/pi/wakaama/core/objects.c.o
+home/pi/vIoThackathon/wakaama/core/management.c.o:
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/management.c.o
+.PHONY : home/pi/vIoThackathon/wakaama/core/management.c.o
 
-home/pi/wakaama/core/objects.i: home/pi/wakaama/core/objects.c.i
+home/pi/vIoThackathon/wakaama/core/management.i: home/pi/vIoThackathon/wakaama/core/management.c.i
 
-.PHONY : home/pi/wakaama/core/objects.i
+.PHONY : home/pi/vIoThackathon/wakaama/core/management.i
 
 # target to preprocess a source file
-home/pi/wakaama/core/objects.c.i:
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/objects.c.i
-.PHONY : home/pi/wakaama/core/objects.c.i
+home/pi/vIoThackathon/wakaama/core/management.c.i:
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/management.c.i
+.PHONY : home/pi/vIoThackathon/wakaama/core/management.c.i
 
-home/pi/wakaama/core/objects.s: home/pi/wakaama/core/objects.c.s
+home/pi/vIoThackathon/wakaama/core/management.s: home/pi/vIoThackathon/wakaama/core/management.c.s
 
-.PHONY : home/pi/wakaama/core/objects.s
+.PHONY : home/pi/vIoThackathon/wakaama/core/management.s
 
 # target to generate assembly for a file
-home/pi/wakaama/core/objects.c.s:
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/objects.c.s
-.PHONY : home/pi/wakaama/core/objects.c.s
+home/pi/vIoThackathon/wakaama/core/management.c.s:
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/management.c.s
+.PHONY : home/pi/vIoThackathon/wakaama/core/management.c.s
 
-home/pi/wakaama/core/observe.o: home/pi/wakaama/core/observe.c.o
+home/pi/vIoThackathon/wakaama/core/objects.o: home/pi/vIoThackathon/wakaama/core/objects.c.o
 
-.PHONY : home/pi/wakaama/core/observe.o
+.PHONY : home/pi/vIoThackathon/wakaama/core/objects.o
 
 # target to build an object file
-home/pi/wakaama/core/observe.c.o:
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/observe.c.o
-.PHONY : home/pi/wakaama/core/observe.c.o
+home/pi/vIoThackathon/wakaama/core/objects.c.o:
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/objects.c.o
+.PHONY : home/pi/vIoThackathon/wakaama/core/objects.c.o
 
-home/pi/wakaama/core/observe.i: home/pi/wakaama/core/observe.c.i
+home/pi/vIoThackathon/wakaama/core/objects.i: home/pi/vIoThackathon/wakaama/core/objects.c.i
 
-.PHONY : home/pi/wakaama/core/observe.i
+.PHONY : home/pi/vIoThackathon/wakaama/core/objects.i
 
 # target to preprocess a source file
-home/pi/wakaama/core/observe.c.i:
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/observe.c.i
-.PHONY : home/pi/wakaama/core/observe.c.i
+home/pi/vIoThackathon/wakaama/core/objects.c.i:
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/objects.c.i
+.PHONY : home/pi/vIoThackathon/wakaama/core/objects.c.i
 
-home/pi/wakaama/core/observe.s: home/pi/wakaama/core/observe.c.s
+home/pi/vIoThackathon/wakaama/core/objects.s: home/pi/vIoThackathon/wakaama/core/objects.c.s
 
-.PHONY : home/pi/wakaama/core/observe.s
+.PHONY : home/pi/vIoThackathon/wakaama/core/objects.s
 
 # target to generate assembly for a file
-home/pi/wakaama/core/observe.c.s:
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/observe.c.s
-.PHONY : home/pi/wakaama/core/observe.c.s
+home/pi/vIoThackathon/wakaama/core/objects.c.s:
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/objects.c.s
+.PHONY : home/pi/vIoThackathon/wakaama/core/objects.c.s
 
-home/pi/wakaama/core/packet.o: home/pi/wakaama/core/packet.c.o
+home/pi/vIoThackathon/wakaama/core/observe.o: home/pi/vIoThackathon/wakaama/core/observe.c.o
 
-.PHONY : home/pi/wakaama/core/packet.o
+.PHONY : home/pi/vIoThackathon/wakaama/core/observe.o
 
 # target to build an object file
-home/pi/wakaama/core/packet.c.o:
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/packet.c.o
-.PHONY : home/pi/wakaama/core/packet.c.o
+home/pi/vIoThackathon/wakaama/core/observe.c.o:
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/observe.c.o
+.PHONY : home/pi/vIoThackathon/wakaama/core/observe.c.o
 
-home/pi/wakaama/core/packet.i: home/pi/wakaama/core/packet.c.i
+home/pi/vIoThackathon/wakaama/core/observe.i: home/pi/vIoThackathon/wakaama/core/observe.c.i
 
-.PHONY : home/pi/wakaama/core/packet.i
+.PHONY : home/pi/vIoThackathon/wakaama/core/observe.i
 
 # target to preprocess a source file
-home/pi/wakaama/core/packet.c.i:
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/packet.c.i
-.PHONY : home/pi/wakaama/core/packet.c.i
+home/pi/vIoThackathon/wakaama/core/observe.c.i:
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/observe.c.i
+.PHONY : home/pi/vIoThackathon/wakaama/core/observe.c.i
 
-home/pi/wakaama/core/packet.s: home/pi/wakaama/core/packet.c.s
+home/pi/vIoThackathon/wakaama/core/observe.s: home/pi/vIoThackathon/wakaama/core/observe.c.s
 
-.PHONY : home/pi/wakaama/core/packet.s
+.PHONY : home/pi/vIoThackathon/wakaama/core/observe.s
 
 # target to generate assembly for a file
-home/pi/wakaama/core/packet.c.s:
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/packet.c.s
-.PHONY : home/pi/wakaama/core/packet.c.s
+home/pi/vIoThackathon/wakaama/core/observe.c.s:
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/observe.c.s
+.PHONY : home/pi/vIoThackathon/wakaama/core/observe.c.s
 
-home/pi/wakaama/core/registration.o: home/pi/wakaama/core/registration.c.o
+home/pi/vIoThackathon/wakaama/core/packet.o: home/pi/vIoThackathon/wakaama/core/packet.c.o
 
-.PHONY : home/pi/wakaama/core/registration.o
+.PHONY : home/pi/vIoThackathon/wakaama/core/packet.o
 
 # target to build an object file
-home/pi/wakaama/core/registration.c.o:
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/registration.c.o
-.PHONY : home/pi/wakaama/core/registration.c.o
+home/pi/vIoThackathon/wakaama/core/packet.c.o:
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/packet.c.o
+.PHONY : home/pi/vIoThackathon/wakaama/core/packet.c.o
 
-home/pi/wakaama/core/registration.i: home/pi/wakaama/core/registration.c.i
+home/pi/vIoThackathon/wakaama/core/packet.i: home/pi/vIoThackathon/wakaama/core/packet.c.i
 
-.PHONY : home/pi/wakaama/core/registration.i
+.PHONY : home/pi/vIoThackathon/wakaama/core/packet.i
 
 # target to preprocess a source file
-home/pi/wakaama/core/registration.c.i:
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/registration.c.i
-.PHONY : home/pi/wakaama/core/registration.c.i
+home/pi/vIoThackathon/wakaama/core/packet.c.i:
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/packet.c.i
+.PHONY : home/pi/vIoThackathon/wakaama/core/packet.c.i
 
-home/pi/wakaama/core/registration.s: home/pi/wakaama/core/registration.c.s
+home/pi/vIoThackathon/wakaama/core/packet.s: home/pi/vIoThackathon/wakaama/core/packet.c.s
 
-.PHONY : home/pi/wakaama/core/registration.s
+.PHONY : home/pi/vIoThackathon/wakaama/core/packet.s
 
 # target to generate assembly for a file
-home/pi/wakaama/core/registration.c.s:
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/registration.c.s
-.PHONY : home/pi/wakaama/core/registration.c.s
+home/pi/vIoThackathon/wakaama/core/packet.c.s:
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/packet.c.s
+.PHONY : home/pi/vIoThackathon/wakaama/core/packet.c.s
 
-home/pi/wakaama/core/tlv.o: home/pi/wakaama/core/tlv.c.o
+home/pi/vIoThackathon/wakaama/core/registration.o: home/pi/vIoThackathon/wakaama/core/registration.c.o
 
-.PHONY : home/pi/wakaama/core/tlv.o
+.PHONY : home/pi/vIoThackathon/wakaama/core/registration.o
 
 # target to build an object file
-home/pi/wakaama/core/tlv.c.o:
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/tlv.c.o
-.PHONY : home/pi/wakaama/core/tlv.c.o
+home/pi/vIoThackathon/wakaama/core/registration.c.o:
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/registration.c.o
+.PHONY : home/pi/vIoThackathon/wakaama/core/registration.c.o
 
-home/pi/wakaama/core/tlv.i: home/pi/wakaama/core/tlv.c.i
+home/pi/vIoThackathon/wakaama/core/registration.i: home/pi/vIoThackathon/wakaama/core/registration.c.i
 
-.PHONY : home/pi/wakaama/core/tlv.i
+.PHONY : home/pi/vIoThackathon/wakaama/core/registration.i
 
 # target to preprocess a source file
-home/pi/wakaama/core/tlv.c.i:
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/tlv.c.i
-.PHONY : home/pi/wakaama/core/tlv.c.i
+home/pi/vIoThackathon/wakaama/core/registration.c.i:
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/registration.c.i
+.PHONY : home/pi/vIoThackathon/wakaama/core/registration.c.i
 
-home/pi/wakaama/core/tlv.s: home/pi/wakaama/core/tlv.c.s
+home/pi/vIoThackathon/wakaama/core/registration.s: home/pi/vIoThackathon/wakaama/core/registration.c.s
 
-.PHONY : home/pi/wakaama/core/tlv.s
+.PHONY : home/pi/vIoThackathon/wakaama/core/registration.s
 
 # target to generate assembly for a file
-home/pi/wakaama/core/tlv.c.s:
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/tlv.c.s
-.PHONY : home/pi/wakaama/core/tlv.c.s
+home/pi/vIoThackathon/wakaama/core/registration.c.s:
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/registration.c.s
+.PHONY : home/pi/vIoThackathon/wakaama/core/registration.c.s
 
-home/pi/wakaama/core/transaction.o: home/pi/wakaama/core/transaction.c.o
+home/pi/vIoThackathon/wakaama/core/tlv.o: home/pi/vIoThackathon/wakaama/core/tlv.c.o
 
-.PHONY : home/pi/wakaama/core/transaction.o
+.PHONY : home/pi/vIoThackathon/wakaama/core/tlv.o
 
 # target to build an object file
-home/pi/wakaama/core/transaction.c.o:
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/transaction.c.o
-.PHONY : home/pi/wakaama/core/transaction.c.o
+home/pi/vIoThackathon/wakaama/core/tlv.c.o:
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/tlv.c.o
+.PHONY : home/pi/vIoThackathon/wakaama/core/tlv.c.o
 
-home/pi/wakaama/core/transaction.i: home/pi/wakaama/core/transaction.c.i
+home/pi/vIoThackathon/wakaama/core/tlv.i: home/pi/vIoThackathon/wakaama/core/tlv.c.i
 
-.PHONY : home/pi/wakaama/core/transaction.i
+.PHONY : home/pi/vIoThackathon/wakaama/core/tlv.i
 
 # target to preprocess a source file
-home/pi/wakaama/core/transaction.c.i:
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/transaction.c.i
-.PHONY : home/pi/wakaama/core/transaction.c.i
+home/pi/vIoThackathon/wakaama/core/tlv.c.i:
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/tlv.c.i
+.PHONY : home/pi/vIoThackathon/wakaama/core/tlv.c.i
 
-home/pi/wakaama/core/transaction.s: home/pi/wakaama/core/transaction.c.s
+home/pi/vIoThackathon/wakaama/core/tlv.s: home/pi/vIoThackathon/wakaama/core/tlv.c.s
 
-.PHONY : home/pi/wakaama/core/transaction.s
+.PHONY : home/pi/vIoThackathon/wakaama/core/tlv.s
 
 # target to generate assembly for a file
-home/pi/wakaama/core/transaction.c.s:
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/transaction.c.s
-.PHONY : home/pi/wakaama/core/transaction.c.s
+home/pi/vIoThackathon/wakaama/core/tlv.c.s:
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/tlv.c.s
+.PHONY : home/pi/vIoThackathon/wakaama/core/tlv.c.s
 
-home/pi/wakaama/core/uri.o: home/pi/wakaama/core/uri.c.o
+home/pi/vIoThackathon/wakaama/core/transaction.o: home/pi/vIoThackathon/wakaama/core/transaction.c.o
 
-.PHONY : home/pi/wakaama/core/uri.o
+.PHONY : home/pi/vIoThackathon/wakaama/core/transaction.o
 
 # target to build an object file
-home/pi/wakaama/core/uri.c.o:
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/uri.c.o
-.PHONY : home/pi/wakaama/core/uri.c.o
+home/pi/vIoThackathon/wakaama/core/transaction.c.o:
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/transaction.c.o
+.PHONY : home/pi/vIoThackathon/wakaama/core/transaction.c.o
 
-home/pi/wakaama/core/uri.i: home/pi/wakaama/core/uri.c.i
+home/pi/vIoThackathon/wakaama/core/transaction.i: home/pi/vIoThackathon/wakaama/core/transaction.c.i
 
-.PHONY : home/pi/wakaama/core/uri.i
+.PHONY : home/pi/vIoThackathon/wakaama/core/transaction.i
 
 # target to preprocess a source file
-home/pi/wakaama/core/uri.c.i:
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/uri.c.i
-.PHONY : home/pi/wakaama/core/uri.c.i
+home/pi/vIoThackathon/wakaama/core/transaction.c.i:
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/transaction.c.i
+.PHONY : home/pi/vIoThackathon/wakaama/core/transaction.c.i
 
-home/pi/wakaama/core/uri.s: home/pi/wakaama/core/uri.c.s
+home/pi/vIoThackathon/wakaama/core/transaction.s: home/pi/vIoThackathon/wakaama/core/transaction.c.s
 
-.PHONY : home/pi/wakaama/core/uri.s
+.PHONY : home/pi/vIoThackathon/wakaama/core/transaction.s
 
 # target to generate assembly for a file
-home/pi/wakaama/core/uri.c.s:
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/uri.c.s
-.PHONY : home/pi/wakaama/core/uri.c.s
+home/pi/vIoThackathon/wakaama/core/transaction.c.s:
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/transaction.c.s
+.PHONY : home/pi/vIoThackathon/wakaama/core/transaction.c.s
 
-home/pi/wakaama/core/utils.o: home/pi/wakaama/core/utils.c.o
+home/pi/vIoThackathon/wakaama/core/uri.o: home/pi/vIoThackathon/wakaama/core/uri.c.o
 
-.PHONY : home/pi/wakaama/core/utils.o
+.PHONY : home/pi/vIoThackathon/wakaama/core/uri.o
 
 # target to build an object file
-home/pi/wakaama/core/utils.c.o:
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/utils.c.o
-.PHONY : home/pi/wakaama/core/utils.c.o
+home/pi/vIoThackathon/wakaama/core/uri.c.o:
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/uri.c.o
+.PHONY : home/pi/vIoThackathon/wakaama/core/uri.c.o
 
-home/pi/wakaama/core/utils.i: home/pi/wakaama/core/utils.c.i
+home/pi/vIoThackathon/wakaama/core/uri.i: home/pi/vIoThackathon/wakaama/core/uri.c.i
 
-.PHONY : home/pi/wakaama/core/utils.i
+.PHONY : home/pi/vIoThackathon/wakaama/core/uri.i
 
 # target to preprocess a source file
-home/pi/wakaama/core/utils.c.i:
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/utils.c.i
-.PHONY : home/pi/wakaama/core/utils.c.i
+home/pi/vIoThackathon/wakaama/core/uri.c.i:
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/uri.c.i
+.PHONY : home/pi/vIoThackathon/wakaama/core/uri.c.i
 
-home/pi/wakaama/core/utils.s: home/pi/wakaama/core/utils.c.s
+home/pi/vIoThackathon/wakaama/core/uri.s: home/pi/vIoThackathon/wakaama/core/uri.c.s
 
-.PHONY : home/pi/wakaama/core/utils.s
+.PHONY : home/pi/vIoThackathon/wakaama/core/uri.s
 
 # target to generate assembly for a file
-home/pi/wakaama/core/utils.c.s:
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/utils.c.s
-.PHONY : home/pi/wakaama/core/utils.c.s
+home/pi/vIoThackathon/wakaama/core/uri.c.s:
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/uri.c.s
+.PHONY : home/pi/vIoThackathon/wakaama/core/uri.c.s
 
-home/pi/wakaama/examples/shared/commandline.o: home/pi/wakaama/examples/shared/commandline.c.o
+home/pi/vIoThackathon/wakaama/core/utils.o: home/pi/vIoThackathon/wakaama/core/utils.c.o
 
-.PHONY : home/pi/wakaama/examples/shared/commandline.o
+.PHONY : home/pi/vIoThackathon/wakaama/core/utils.o
 
 # target to build an object file
-home/pi/wakaama/examples/shared/commandline.c.o:
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/commandline.c.o
-.PHONY : home/pi/wakaama/examples/shared/commandline.c.o
+home/pi/vIoThackathon/wakaama/core/utils.c.o:
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/utils.c.o
+.PHONY : home/pi/vIoThackathon/wakaama/core/utils.c.o
 
-home/pi/wakaama/examples/shared/commandline.i: home/pi/wakaama/examples/shared/commandline.c.i
+home/pi/vIoThackathon/wakaama/core/utils.i: home/pi/vIoThackathon/wakaama/core/utils.c.i
 
-.PHONY : home/pi/wakaama/examples/shared/commandline.i
+.PHONY : home/pi/vIoThackathon/wakaama/core/utils.i
 
 # target to preprocess a source file
-home/pi/wakaama/examples/shared/commandline.c.i:
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/commandline.c.i
-.PHONY : home/pi/wakaama/examples/shared/commandline.c.i
+home/pi/vIoThackathon/wakaama/core/utils.c.i:
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/utils.c.i
+.PHONY : home/pi/vIoThackathon/wakaama/core/utils.c.i
 
-home/pi/wakaama/examples/shared/commandline.s: home/pi/wakaama/examples/shared/commandline.c.s
+home/pi/vIoThackathon/wakaama/core/utils.s: home/pi/vIoThackathon/wakaama/core/utils.c.s
 
-.PHONY : home/pi/wakaama/examples/shared/commandline.s
+.PHONY : home/pi/vIoThackathon/wakaama/core/utils.s
 
 # target to generate assembly for a file
-home/pi/wakaama/examples/shared/commandline.c.s:
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/commandline.c.s
-.PHONY : home/pi/wakaama/examples/shared/commandline.c.s
+home/pi/vIoThackathon/wakaama/core/utils.c.s:
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/utils.c.s
+.PHONY : home/pi/vIoThackathon/wakaama/core/utils.c.s
 
-home/pi/wakaama/examples/shared/connection.o: home/pi/wakaama/examples/shared/connection.c.o
+home/pi/vIoThackathon/wakaama/examples/shared/commandline.o: home/pi/vIoThackathon/wakaama/examples/shared/commandline.c.o
 
-.PHONY : home/pi/wakaama/examples/shared/connection.o
+.PHONY : home/pi/vIoThackathon/wakaama/examples/shared/commandline.o
 
 # target to build an object file
-home/pi/wakaama/examples/shared/connection.c.o:
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/connection.c.o
-.PHONY : home/pi/wakaama/examples/shared/connection.c.o
+home/pi/vIoThackathon/wakaama/examples/shared/commandline.c.o:
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/commandline.c.o
+.PHONY : home/pi/vIoThackathon/wakaama/examples/shared/commandline.c.o
 
-home/pi/wakaama/examples/shared/connection.i: home/pi/wakaama/examples/shared/connection.c.i
+home/pi/vIoThackathon/wakaama/examples/shared/commandline.i: home/pi/vIoThackathon/wakaama/examples/shared/commandline.c.i
 
-.PHONY : home/pi/wakaama/examples/shared/connection.i
+.PHONY : home/pi/vIoThackathon/wakaama/examples/shared/commandline.i
 
 # target to preprocess a source file
-home/pi/wakaama/examples/shared/connection.c.i:
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/connection.c.i
-.PHONY : home/pi/wakaama/examples/shared/connection.c.i
+home/pi/vIoThackathon/wakaama/examples/shared/commandline.c.i:
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/commandline.c.i
+.PHONY : home/pi/vIoThackathon/wakaama/examples/shared/commandline.c.i
 
-home/pi/wakaama/examples/shared/connection.s: home/pi/wakaama/examples/shared/connection.c.s
+home/pi/vIoThackathon/wakaama/examples/shared/commandline.s: home/pi/vIoThackathon/wakaama/examples/shared/commandline.c.s
 
-.PHONY : home/pi/wakaama/examples/shared/connection.s
+.PHONY : home/pi/vIoThackathon/wakaama/examples/shared/commandline.s
 
 # target to generate assembly for a file
-home/pi/wakaama/examples/shared/connection.c.s:
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/connection.c.s
-.PHONY : home/pi/wakaama/examples/shared/connection.c.s
+home/pi/vIoThackathon/wakaama/examples/shared/commandline.c.s:
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/commandline.c.s
+.PHONY : home/pi/vIoThackathon/wakaama/examples/shared/commandline.c.s
 
-home/pi/wakaama/examples/shared/memtrace.o: home/pi/wakaama/examples/shared/memtrace.c.o
+home/pi/vIoThackathon/wakaama/examples/shared/connection.o: home/pi/vIoThackathon/wakaama/examples/shared/connection.c.o
 
-.PHONY : home/pi/wakaama/examples/shared/memtrace.o
+.PHONY : home/pi/vIoThackathon/wakaama/examples/shared/connection.o
 
 # target to build an object file
-home/pi/wakaama/examples/shared/memtrace.c.o:
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/memtrace.c.o
-.PHONY : home/pi/wakaama/examples/shared/memtrace.c.o
+home/pi/vIoThackathon/wakaama/examples/shared/connection.c.o:
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/connection.c.o
+.PHONY : home/pi/vIoThackathon/wakaama/examples/shared/connection.c.o
 
-home/pi/wakaama/examples/shared/memtrace.i: home/pi/wakaama/examples/shared/memtrace.c.i
+home/pi/vIoThackathon/wakaama/examples/shared/connection.i: home/pi/vIoThackathon/wakaama/examples/shared/connection.c.i
 
-.PHONY : home/pi/wakaama/examples/shared/memtrace.i
+.PHONY : home/pi/vIoThackathon/wakaama/examples/shared/connection.i
 
 # target to preprocess a source file
-home/pi/wakaama/examples/shared/memtrace.c.i:
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/memtrace.c.i
-.PHONY : home/pi/wakaama/examples/shared/memtrace.c.i
+home/pi/vIoThackathon/wakaama/examples/shared/connection.c.i:
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/connection.c.i
+.PHONY : home/pi/vIoThackathon/wakaama/examples/shared/connection.c.i
 
-home/pi/wakaama/examples/shared/memtrace.s: home/pi/wakaama/examples/shared/memtrace.c.s
+home/pi/vIoThackathon/wakaama/examples/shared/connection.s: home/pi/vIoThackathon/wakaama/examples/shared/connection.c.s
 
-.PHONY : home/pi/wakaama/examples/shared/memtrace.s
+.PHONY : home/pi/vIoThackathon/wakaama/examples/shared/connection.s
 
 # target to generate assembly for a file
-home/pi/wakaama/examples/shared/memtrace.c.s:
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/memtrace.c.s
-.PHONY : home/pi/wakaama/examples/shared/memtrace.c.s
+home/pi/vIoThackathon/wakaama/examples/shared/connection.c.s:
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/connection.c.s
+.PHONY : home/pi/vIoThackathon/wakaama/examples/shared/connection.c.s
 
-home/pi/wakaama/examples/shared/platform.o: home/pi/wakaama/examples/shared/platform.c.o
+home/pi/vIoThackathon/wakaama/examples/shared/memtrace.o: home/pi/vIoThackathon/wakaama/examples/shared/memtrace.c.o
 
-.PHONY : home/pi/wakaama/examples/shared/platform.o
+.PHONY : home/pi/vIoThackathon/wakaama/examples/shared/memtrace.o
 
 # target to build an object file
-home/pi/wakaama/examples/shared/platform.c.o:
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/platform.c.o
-.PHONY : home/pi/wakaama/examples/shared/platform.c.o
+home/pi/vIoThackathon/wakaama/examples/shared/memtrace.c.o:
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/memtrace.c.o
+.PHONY : home/pi/vIoThackathon/wakaama/examples/shared/memtrace.c.o
 
-home/pi/wakaama/examples/shared/platform.i: home/pi/wakaama/examples/shared/platform.c.i
+home/pi/vIoThackathon/wakaama/examples/shared/memtrace.i: home/pi/vIoThackathon/wakaama/examples/shared/memtrace.c.i
 
-.PHONY : home/pi/wakaama/examples/shared/platform.i
+.PHONY : home/pi/vIoThackathon/wakaama/examples/shared/memtrace.i
 
 # target to preprocess a source file
-home/pi/wakaama/examples/shared/platform.c.i:
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/platform.c.i
-.PHONY : home/pi/wakaama/examples/shared/platform.c.i
+home/pi/vIoThackathon/wakaama/examples/shared/memtrace.c.i:
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/memtrace.c.i
+.PHONY : home/pi/vIoThackathon/wakaama/examples/shared/memtrace.c.i
 
-home/pi/wakaama/examples/shared/platform.s: home/pi/wakaama/examples/shared/platform.c.s
+home/pi/vIoThackathon/wakaama/examples/shared/memtrace.s: home/pi/vIoThackathon/wakaama/examples/shared/memtrace.c.s
 
-.PHONY : home/pi/wakaama/examples/shared/platform.s
+.PHONY : home/pi/vIoThackathon/wakaama/examples/shared/memtrace.s
 
 # target to generate assembly for a file
-home/pi/wakaama/examples/shared/platform.c.s:
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/platform.c.s
-.PHONY : home/pi/wakaama/examples/shared/platform.c.s
+home/pi/vIoThackathon/wakaama/examples/shared/memtrace.c.s:
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/memtrace.c.s
+.PHONY : home/pi/vIoThackathon/wakaama/examples/shared/memtrace.c.s
+
+home/pi/vIoThackathon/wakaama/examples/shared/platform.o: home/pi/vIoThackathon/wakaama/examples/shared/platform.c.o
+
+.PHONY : home/pi/vIoThackathon/wakaama/examples/shared/platform.o
+
+# target to build an object file
+home/pi/vIoThackathon/wakaama/examples/shared/platform.c.o:
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/platform.c.o
+.PHONY : home/pi/vIoThackathon/wakaama/examples/shared/platform.c.o
+
+home/pi/vIoThackathon/wakaama/examples/shared/platform.i: home/pi/vIoThackathon/wakaama/examples/shared/platform.c.i
+
+.PHONY : home/pi/vIoThackathon/wakaama/examples/shared/platform.i
+
+# target to preprocess a source file
+home/pi/vIoThackathon/wakaama/examples/shared/platform.c.i:
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/platform.c.i
+.PHONY : home/pi/vIoThackathon/wakaama/examples/shared/platform.c.i
+
+home/pi/vIoThackathon/wakaama/examples/shared/platform.s: home/pi/vIoThackathon/wakaama/examples/shared/platform.c.s
+
+.PHONY : home/pi/vIoThackathon/wakaama/examples/shared/platform.s
+
+# target to generate assembly for a file
+home/pi/vIoThackathon/wakaama/examples/shared/platform.c.s:
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/platform.c.s
+.PHONY : home/pi/vIoThackathon/wakaama/examples/shared/platform.c.s
 
 lwm2mclient.o: lwm2mclient.c.o
 
@@ -1026,69 +1026,69 @@ help:
 	@echo "... dht11.o"
 	@echo "... dht11.i"
 	@echo "... dht11.s"
-	@echo "... home/pi/wakaama/core/block1.o"
-	@echo "... home/pi/wakaama/core/block1.i"
-	@echo "... home/pi/wakaama/core/block1.s"
-	@echo "... home/pi/wakaama/core/bootstrap.o"
-	@echo "... home/pi/wakaama/core/bootstrap.i"
-	@echo "... home/pi/wakaama/core/bootstrap.s"
-	@echo "... home/pi/wakaama/core/data.o"
-	@echo "... home/pi/wakaama/core/data.i"
-	@echo "... home/pi/wakaama/core/data.s"
-	@echo "... home/pi/wakaama/core/discover.o"
-	@echo "... home/pi/wakaama/core/discover.i"
-	@echo "... home/pi/wakaama/core/discover.s"
-	@echo "... home/pi/wakaama/core/er-coap-13/er-coap-13.o"
-	@echo "... home/pi/wakaama/core/er-coap-13/er-coap-13.i"
-	@echo "... home/pi/wakaama/core/er-coap-13/er-coap-13.s"
-	@echo "... home/pi/wakaama/core/json.o"
-	@echo "... home/pi/wakaama/core/json.i"
-	@echo "... home/pi/wakaama/core/json.s"
-	@echo "... home/pi/wakaama/core/liblwm2m.o"
-	@echo "... home/pi/wakaama/core/liblwm2m.i"
-	@echo "... home/pi/wakaama/core/liblwm2m.s"
-	@echo "... home/pi/wakaama/core/list.o"
-	@echo "... home/pi/wakaama/core/list.i"
-	@echo "... home/pi/wakaama/core/list.s"
-	@echo "... home/pi/wakaama/core/management.o"
-	@echo "... home/pi/wakaama/core/management.i"
-	@echo "... home/pi/wakaama/core/management.s"
-	@echo "... home/pi/wakaama/core/objects.o"
-	@echo "... home/pi/wakaama/core/objects.i"
-	@echo "... home/pi/wakaama/core/objects.s"
-	@echo "... home/pi/wakaama/core/observe.o"
-	@echo "... home/pi/wakaama/core/observe.i"
-	@echo "... home/pi/wakaama/core/observe.s"
-	@echo "... home/pi/wakaama/core/packet.o"
-	@echo "... home/pi/wakaama/core/packet.i"
-	@echo "... home/pi/wakaama/core/packet.s"
-	@echo "... home/pi/wakaama/core/registration.o"
-	@echo "... home/pi/wakaama/core/registration.i"
-	@echo "... home/pi/wakaama/core/registration.s"
-	@echo "... home/pi/wakaama/core/tlv.o"
-	@echo "... home/pi/wakaama/core/tlv.i"
-	@echo "... home/pi/wakaama/core/tlv.s"
-	@echo "... home/pi/wakaama/core/transaction.o"
-	@echo "... home/pi/wakaama/core/transaction.i"
-	@echo "... home/pi/wakaama/core/transaction.s"
-	@echo "... home/pi/wakaama/core/uri.o"
-	@echo "... home/pi/wakaama/core/uri.i"
-	@echo "... home/pi/wakaama/core/uri.s"
-	@echo "... home/pi/wakaama/core/utils.o"
-	@echo "... home/pi/wakaama/core/utils.i"
-	@echo "... home/pi/wakaama/core/utils.s"
-	@echo "... home/pi/wakaama/examples/shared/commandline.o"
-	@echo "... home/pi/wakaama/examples/shared/commandline.i"
-	@echo "... home/pi/wakaama/examples/shared/commandline.s"
-	@echo "... home/pi/wakaama/examples/shared/connection.o"
-	@echo "... home/pi/wakaama/examples/shared/connection.i"
-	@echo "... home/pi/wakaama/examples/shared/connection.s"
-	@echo "... home/pi/wakaama/examples/shared/memtrace.o"
-	@echo "... home/pi/wakaama/examples/shared/memtrace.i"
-	@echo "... home/pi/wakaama/examples/shared/memtrace.s"
-	@echo "... home/pi/wakaama/examples/shared/platform.o"
-	@echo "... home/pi/wakaama/examples/shared/platform.i"
-	@echo "... home/pi/wakaama/examples/shared/platform.s"
+	@echo "... home/pi/vIoThackathon/wakaama/core/block1.o"
+	@echo "... home/pi/vIoThackathon/wakaama/core/block1.i"
+	@echo "... home/pi/vIoThackathon/wakaama/core/block1.s"
+	@echo "... home/pi/vIoThackathon/wakaama/core/bootstrap.o"
+	@echo "... home/pi/vIoThackathon/wakaama/core/bootstrap.i"
+	@echo "... home/pi/vIoThackathon/wakaama/core/bootstrap.s"
+	@echo "... home/pi/vIoThackathon/wakaama/core/data.o"
+	@echo "... home/pi/vIoThackathon/wakaama/core/data.i"
+	@echo "... home/pi/vIoThackathon/wakaama/core/data.s"
+	@echo "... home/pi/vIoThackathon/wakaama/core/discover.o"
+	@echo "... home/pi/vIoThackathon/wakaama/core/discover.i"
+	@echo "... home/pi/vIoThackathon/wakaama/core/discover.s"
+	@echo "... home/pi/vIoThackathon/wakaama/core/er-coap-13/er-coap-13.o"
+	@echo "... home/pi/vIoThackathon/wakaama/core/er-coap-13/er-coap-13.i"
+	@echo "... home/pi/vIoThackathon/wakaama/core/er-coap-13/er-coap-13.s"
+	@echo "... home/pi/vIoThackathon/wakaama/core/json.o"
+	@echo "... home/pi/vIoThackathon/wakaama/core/json.i"
+	@echo "... home/pi/vIoThackathon/wakaama/core/json.s"
+	@echo "... home/pi/vIoThackathon/wakaama/core/liblwm2m.o"
+	@echo "... home/pi/vIoThackathon/wakaama/core/liblwm2m.i"
+	@echo "... home/pi/vIoThackathon/wakaama/core/liblwm2m.s"
+	@echo "... home/pi/vIoThackathon/wakaama/core/list.o"
+	@echo "... home/pi/vIoThackathon/wakaama/core/list.i"
+	@echo "... home/pi/vIoThackathon/wakaama/core/list.s"
+	@echo "... home/pi/vIoThackathon/wakaama/core/management.o"
+	@echo "... home/pi/vIoThackathon/wakaama/core/management.i"
+	@echo "... home/pi/vIoThackathon/wakaama/core/management.s"
+	@echo "... home/pi/vIoThackathon/wakaama/core/objects.o"
+	@echo "... home/pi/vIoThackathon/wakaama/core/objects.i"
+	@echo "... home/pi/vIoThackathon/wakaama/core/objects.s"
+	@echo "... home/pi/vIoThackathon/wakaama/core/observe.o"
+	@echo "... home/pi/vIoThackathon/wakaama/core/observe.i"
+	@echo "... home/pi/vIoThackathon/wakaama/core/observe.s"
+	@echo "... home/pi/vIoThackathon/wakaama/core/packet.o"
+	@echo "... home/pi/vIoThackathon/wakaama/core/packet.i"
+	@echo "... home/pi/vIoThackathon/wakaama/core/packet.s"
+	@echo "... home/pi/vIoThackathon/wakaama/core/registration.o"
+	@echo "... home/pi/vIoThackathon/wakaama/core/registration.i"
+	@echo "... home/pi/vIoThackathon/wakaama/core/registration.s"
+	@echo "... home/pi/vIoThackathon/wakaama/core/tlv.o"
+	@echo "... home/pi/vIoThackathon/wakaama/core/tlv.i"
+	@echo "... home/pi/vIoThackathon/wakaama/core/tlv.s"
+	@echo "... home/pi/vIoThackathon/wakaama/core/transaction.o"
+	@echo "... home/pi/vIoThackathon/wakaama/core/transaction.i"
+	@echo "... home/pi/vIoThackathon/wakaama/core/transaction.s"
+	@echo "... home/pi/vIoThackathon/wakaama/core/uri.o"
+	@echo "... home/pi/vIoThackathon/wakaama/core/uri.i"
+	@echo "... home/pi/vIoThackathon/wakaama/core/uri.s"
+	@echo "... home/pi/vIoThackathon/wakaama/core/utils.o"
+	@echo "... home/pi/vIoThackathon/wakaama/core/utils.i"
+	@echo "... home/pi/vIoThackathon/wakaama/core/utils.s"
+	@echo "... home/pi/vIoThackathon/wakaama/examples/shared/commandline.o"
+	@echo "... home/pi/vIoThackathon/wakaama/examples/shared/commandline.i"
+	@echo "... home/pi/vIoThackathon/wakaama/examples/shared/commandline.s"
+	@echo "... home/pi/vIoThackathon/wakaama/examples/shared/connection.o"
+	@echo "... home/pi/vIoThackathon/wakaama/examples/shared/connection.i"
+	@echo "... home/pi/vIoThackathon/wakaama/examples/shared/connection.s"
+	@echo "... home/pi/vIoThackathon/wakaama/examples/shared/memtrace.o"
+	@echo "... home/pi/vIoThackathon/wakaama/examples/shared/memtrace.i"
+	@echo "... home/pi/vIoThackathon/wakaama/examples/shared/memtrace.s"
+	@echo "... home/pi/vIoThackathon/wakaama/examples/shared/platform.o"
+	@echo "... home/pi/vIoThackathon/wakaama/examples/shared/platform.i"
+	@echo "... home/pi/vIoThackathon/wakaama/examples/shared/platform.s"
 	@echo "... lwm2mclient.o"
 	@echo "... lwm2mclient.i"
 	@echo "... lwm2mclient.s"

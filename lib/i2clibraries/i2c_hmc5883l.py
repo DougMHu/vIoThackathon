@@ -96,35 +96,38 @@ class i2c_hmc5883l:
             self.scale = 4.35
         self.scale_reg = self.scale_reg << 5
         self.setOption(self.ConfigurationRegisterB, self.scale_reg)
+        self.getAxes()  # throw out garbage values because new scaling is only reflected from second measurement onwards
 
     def upScale(self):
         """
-        Returns True if scale is increased
+        Returns new scale factor if scale is increased
         Returns False if scale cannot be increased
         """
         curr_scale = self.scale_reg >> 5
         logger.debug("Current scale = %r" % curr_scale)
         next_scale = curr_scale + 1
-        if next_scale in scale_dict:
+        if next_scale in self.scale_dict:
             logger.debug("Next scale = %r" % next_scale)
             self.setScale(self.gauss_dict[next_scale])
-            return True
+            logger.info("Increased scale to %f" % self.gauss_dict[next_scale])
+            return self.gauss_dict[next_scale]
         else:
             logger.debug("Scale cannot be increased any further!")
             return False
 
     def downScale(self):
         """
-        Returns True if scale is decreased
+        Returns new scale factor if scale is decreased
         Returns False if scale cannot be decreased
         """
         curr_scale = self.scale_reg >> 5
         logger.debug("Current scale = %r" % curr_scale)
         next_scale = curr_scale - 1
-        if next_scale in scale_dict:
+        if next_scale in self.scale_dict:
             logger.debug("Next scale = %r" % next_scale)
             self.setScale(self.gauss_dict[next_scale])
-            return True
+            logger.info("Decreased scale to %f" % self.gauss_dict[next_scale])
+            return self.gauss_dict[next_scale]
         else:
             logger.debug("Scale cannot be decreased any further!")
             return False

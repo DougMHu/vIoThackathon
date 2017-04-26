@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/wakaama/examples/client
+CMAKE_SOURCE_DIR = /home/pi/vIoThackathon/wakaama/examples/client
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/wakaama/examples/client
+CMAKE_BINARY_DIR = /home/pi/vIoThackathon/wakaama/examples/client
 
 # Include any dependencies generated for this target.
 include CMakeFiles/lwm2mclient.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/lwm2mclient.dir/flags.make
 
 CMakeFiles/lwm2mclient.dir/lwm2mclient.c.o: CMakeFiles/lwm2mclient.dir/flags.make
 CMakeFiles/lwm2mclient.dir/lwm2mclient.c.o: lwm2mclient.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/lwm2mclient.dir/lwm2mclient.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/lwm2mclient.c.o   -c /home/pi/wakaama/examples/client/lwm2mclient.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/vIoThackathon/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/lwm2mclient.dir/lwm2mclient.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/lwm2mclient.c.o   -c /home/pi/vIoThackathon/wakaama/examples/client/lwm2mclient.c
 
 CMakeFiles/lwm2mclient.dir/lwm2mclient.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lwm2mclient.dir/lwm2mclient.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/wakaama/examples/client/lwm2mclient.c > CMakeFiles/lwm2mclient.dir/lwm2mclient.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/vIoThackathon/wakaama/examples/client/lwm2mclient.c > CMakeFiles/lwm2mclient.dir/lwm2mclient.c.i
 
 CMakeFiles/lwm2mclient.dir/lwm2mclient.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lwm2mclient.dir/lwm2mclient.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/wakaama/examples/client/lwm2mclient.c -o CMakeFiles/lwm2mclient.dir/lwm2mclient.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/vIoThackathon/wakaama/examples/client/lwm2mclient.c -o CMakeFiles/lwm2mclient.dir/lwm2mclient.c.s
 
 CMakeFiles/lwm2mclient.dir/lwm2mclient.c.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/lwm2mclient.dir/lwm2mclient.c.o.provides.build: CMakeFiles/lwm2mclien
 
 CMakeFiles/lwm2mclient.dir/dht11.c.o: CMakeFiles/lwm2mclient.dir/flags.make
 CMakeFiles/lwm2mclient.dir/dht11.c.o: dht11.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/lwm2mclient.dir/dht11.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/dht11.c.o   -c /home/pi/wakaama/examples/client/dht11.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/vIoThackathon/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/lwm2mclient.dir/dht11.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/dht11.c.o   -c /home/pi/vIoThackathon/wakaama/examples/client/dht11.c
 
 CMakeFiles/lwm2mclient.dir/dht11.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lwm2mclient.dir/dht11.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/wakaama/examples/client/dht11.c > CMakeFiles/lwm2mclient.dir/dht11.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/vIoThackathon/wakaama/examples/client/dht11.c > CMakeFiles/lwm2mclient.dir/dht11.c.i
 
 CMakeFiles/lwm2mclient.dir/dht11.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lwm2mclient.dir/dht11.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/wakaama/examples/client/dht11.c -o CMakeFiles/lwm2mclient.dir/dht11.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/vIoThackathon/wakaama/examples/client/dht11.c -o CMakeFiles/lwm2mclient.dir/dht11.c.s
 
 CMakeFiles/lwm2mclient.dir/dht11.c.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/lwm2mclient.dir/dht11.c.o.provides.build: CMakeFiles/lwm2mclient.dir/
 
 CMakeFiles/lwm2mclient.dir/system_api.c.o: CMakeFiles/lwm2mclient.dir/flags.make
 CMakeFiles/lwm2mclient.dir/system_api.c.o: system_api.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/lwm2mclient.dir/system_api.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/system_api.c.o   -c /home/pi/wakaama/examples/client/system_api.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/vIoThackathon/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/lwm2mclient.dir/system_api.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/system_api.c.o   -c /home/pi/vIoThackathon/wakaama/examples/client/system_api.c
 
 CMakeFiles/lwm2mclient.dir/system_api.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lwm2mclient.dir/system_api.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/wakaama/examples/client/system_api.c > CMakeFiles/lwm2mclient.dir/system_api.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/vIoThackathon/wakaama/examples/client/system_api.c > CMakeFiles/lwm2mclient.dir/system_api.c.i
 
 CMakeFiles/lwm2mclient.dir/system_api.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lwm2mclient.dir/system_api.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/wakaama/examples/client/system_api.c -o CMakeFiles/lwm2mclient.dir/system_api.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/vIoThackathon/wakaama/examples/client/system_api.c -o CMakeFiles/lwm2mclient.dir/system_api.c.s
 
 CMakeFiles/lwm2mclient.dir/system_api.c.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/lwm2mclient.dir/system_api.c.o.provides.build: CMakeFiles/lwm2mclient
 
 CMakeFiles/lwm2mclient.dir/object_security.c.o: CMakeFiles/lwm2mclient.dir/flags.make
 CMakeFiles/lwm2mclient.dir/object_security.c.o: object_security.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/lwm2mclient.dir/object_security.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/object_security.c.o   -c /home/pi/wakaama/examples/client/object_security.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/vIoThackathon/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/lwm2mclient.dir/object_security.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/object_security.c.o   -c /home/pi/vIoThackathon/wakaama/examples/client/object_security.c
 
 CMakeFiles/lwm2mclient.dir/object_security.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lwm2mclient.dir/object_security.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/wakaama/examples/client/object_security.c > CMakeFiles/lwm2mclient.dir/object_security.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/vIoThackathon/wakaama/examples/client/object_security.c > CMakeFiles/lwm2mclient.dir/object_security.c.i
 
 CMakeFiles/lwm2mclient.dir/object_security.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lwm2mclient.dir/object_security.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/wakaama/examples/client/object_security.c -o CMakeFiles/lwm2mclient.dir/object_security.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/vIoThackathon/wakaama/examples/client/object_security.c -o CMakeFiles/lwm2mclient.dir/object_security.c.s
 
 CMakeFiles/lwm2mclient.dir/object_security.c.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/lwm2mclient.dir/object_security.c.o.provides.build: CMakeFiles/lwm2mc
 
 CMakeFiles/lwm2mclient.dir/object_server.c.o: CMakeFiles/lwm2mclient.dir/flags.make
 CMakeFiles/lwm2mclient.dir/object_server.c.o: object_server.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/lwm2mclient.dir/object_server.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/object_server.c.o   -c /home/pi/wakaama/examples/client/object_server.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/vIoThackathon/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/lwm2mclient.dir/object_server.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/object_server.c.o   -c /home/pi/vIoThackathon/wakaama/examples/client/object_server.c
 
 CMakeFiles/lwm2mclient.dir/object_server.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lwm2mclient.dir/object_server.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/wakaama/examples/client/object_server.c > CMakeFiles/lwm2mclient.dir/object_server.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/vIoThackathon/wakaama/examples/client/object_server.c > CMakeFiles/lwm2mclient.dir/object_server.c.i
 
 CMakeFiles/lwm2mclient.dir/object_server.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lwm2mclient.dir/object_server.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/wakaama/examples/client/object_server.c -o CMakeFiles/lwm2mclient.dir/object_server.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/vIoThackathon/wakaama/examples/client/object_server.c -o CMakeFiles/lwm2mclient.dir/object_server.c.s
 
 CMakeFiles/lwm2mclient.dir/object_server.c.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/lwm2mclient.dir/object_server.c.o.provides.build: CMakeFiles/lwm2mcli
 
 CMakeFiles/lwm2mclient.dir/object_device.c.o: CMakeFiles/lwm2mclient.dir/flags.make
 CMakeFiles/lwm2mclient.dir/object_device.c.o: object_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/lwm2mclient.dir/object_device.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/object_device.c.o   -c /home/pi/wakaama/examples/client/object_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/vIoThackathon/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/lwm2mclient.dir/object_device.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/object_device.c.o   -c /home/pi/vIoThackathon/wakaama/examples/client/object_device.c
 
 CMakeFiles/lwm2mclient.dir/object_device.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lwm2mclient.dir/object_device.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/wakaama/examples/client/object_device.c > CMakeFiles/lwm2mclient.dir/object_device.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/vIoThackathon/wakaama/examples/client/object_device.c > CMakeFiles/lwm2mclient.dir/object_device.c.i
 
 CMakeFiles/lwm2mclient.dir/object_device.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lwm2mclient.dir/object_device.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/wakaama/examples/client/object_device.c -o CMakeFiles/lwm2mclient.dir/object_device.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/vIoThackathon/wakaama/examples/client/object_device.c -o CMakeFiles/lwm2mclient.dir/object_device.c.s
 
 CMakeFiles/lwm2mclient.dir/object_device.c.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/lwm2mclient.dir/object_device.c.o.provides.build: CMakeFiles/lwm2mcli
 
 CMakeFiles/lwm2mclient.dir/object_firmware.c.o: CMakeFiles/lwm2mclient.dir/flags.make
 CMakeFiles/lwm2mclient.dir/object_firmware.c.o: object_firmware.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/lwm2mclient.dir/object_firmware.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/object_firmware.c.o   -c /home/pi/wakaama/examples/client/object_firmware.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/vIoThackathon/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/lwm2mclient.dir/object_firmware.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/object_firmware.c.o   -c /home/pi/vIoThackathon/wakaama/examples/client/object_firmware.c
 
 CMakeFiles/lwm2mclient.dir/object_firmware.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lwm2mclient.dir/object_firmware.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/wakaama/examples/client/object_firmware.c > CMakeFiles/lwm2mclient.dir/object_firmware.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/vIoThackathon/wakaama/examples/client/object_firmware.c > CMakeFiles/lwm2mclient.dir/object_firmware.c.i
 
 CMakeFiles/lwm2mclient.dir/object_firmware.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lwm2mclient.dir/object_firmware.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/wakaama/examples/client/object_firmware.c -o CMakeFiles/lwm2mclient.dir/object_firmware.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/vIoThackathon/wakaama/examples/client/object_firmware.c -o CMakeFiles/lwm2mclient.dir/object_firmware.c.s
 
 CMakeFiles/lwm2mclient.dir/object_firmware.c.o.requires:
 
@@ -227,16 +227,16 @@ CMakeFiles/lwm2mclient.dir/object_firmware.c.o.provides.build: CMakeFiles/lwm2mc
 
 CMakeFiles/lwm2mclient.dir/object_location.c.o: CMakeFiles/lwm2mclient.dir/flags.make
 CMakeFiles/lwm2mclient.dir/object_location.c.o: object_location.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/lwm2mclient.dir/object_location.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/object_location.c.o   -c /home/pi/wakaama/examples/client/object_location.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/vIoThackathon/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/lwm2mclient.dir/object_location.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/object_location.c.o   -c /home/pi/vIoThackathon/wakaama/examples/client/object_location.c
 
 CMakeFiles/lwm2mclient.dir/object_location.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lwm2mclient.dir/object_location.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/wakaama/examples/client/object_location.c > CMakeFiles/lwm2mclient.dir/object_location.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/vIoThackathon/wakaama/examples/client/object_location.c > CMakeFiles/lwm2mclient.dir/object_location.c.i
 
 CMakeFiles/lwm2mclient.dir/object_location.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lwm2mclient.dir/object_location.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/wakaama/examples/client/object_location.c -o CMakeFiles/lwm2mclient.dir/object_location.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/vIoThackathon/wakaama/examples/client/object_location.c -o CMakeFiles/lwm2mclient.dir/object_location.c.s
 
 CMakeFiles/lwm2mclient.dir/object_location.c.o.requires:
 
@@ -251,16 +251,16 @@ CMakeFiles/lwm2mclient.dir/object_location.c.o.provides.build: CMakeFiles/lwm2mc
 
 CMakeFiles/lwm2mclient.dir/object_connectivity_moni.c.o: CMakeFiles/lwm2mclient.dir/flags.make
 CMakeFiles/lwm2mclient.dir/object_connectivity_moni.c.o: object_connectivity_moni.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/lwm2mclient.dir/object_connectivity_moni.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/object_connectivity_moni.c.o   -c /home/pi/wakaama/examples/client/object_connectivity_moni.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/vIoThackathon/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/lwm2mclient.dir/object_connectivity_moni.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/object_connectivity_moni.c.o   -c /home/pi/vIoThackathon/wakaama/examples/client/object_connectivity_moni.c
 
 CMakeFiles/lwm2mclient.dir/object_connectivity_moni.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lwm2mclient.dir/object_connectivity_moni.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/wakaama/examples/client/object_connectivity_moni.c > CMakeFiles/lwm2mclient.dir/object_connectivity_moni.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/vIoThackathon/wakaama/examples/client/object_connectivity_moni.c > CMakeFiles/lwm2mclient.dir/object_connectivity_moni.c.i
 
 CMakeFiles/lwm2mclient.dir/object_connectivity_moni.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lwm2mclient.dir/object_connectivity_moni.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/wakaama/examples/client/object_connectivity_moni.c -o CMakeFiles/lwm2mclient.dir/object_connectivity_moni.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/vIoThackathon/wakaama/examples/client/object_connectivity_moni.c -o CMakeFiles/lwm2mclient.dir/object_connectivity_moni.c.s
 
 CMakeFiles/lwm2mclient.dir/object_connectivity_moni.c.o.requires:
 
@@ -275,16 +275,16 @@ CMakeFiles/lwm2mclient.dir/object_connectivity_moni.c.o.provides.build: CMakeFil
 
 CMakeFiles/lwm2mclient.dir/object_connectivity_stat.c.o: CMakeFiles/lwm2mclient.dir/flags.make
 CMakeFiles/lwm2mclient.dir/object_connectivity_stat.c.o: object_connectivity_stat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/lwm2mclient.dir/object_connectivity_stat.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/object_connectivity_stat.c.o   -c /home/pi/wakaama/examples/client/object_connectivity_stat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/vIoThackathon/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/lwm2mclient.dir/object_connectivity_stat.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/object_connectivity_stat.c.o   -c /home/pi/vIoThackathon/wakaama/examples/client/object_connectivity_stat.c
 
 CMakeFiles/lwm2mclient.dir/object_connectivity_stat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lwm2mclient.dir/object_connectivity_stat.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/wakaama/examples/client/object_connectivity_stat.c > CMakeFiles/lwm2mclient.dir/object_connectivity_stat.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/vIoThackathon/wakaama/examples/client/object_connectivity_stat.c > CMakeFiles/lwm2mclient.dir/object_connectivity_stat.c.i
 
 CMakeFiles/lwm2mclient.dir/object_connectivity_stat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lwm2mclient.dir/object_connectivity_stat.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/wakaama/examples/client/object_connectivity_stat.c -o CMakeFiles/lwm2mclient.dir/object_connectivity_stat.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/vIoThackathon/wakaama/examples/client/object_connectivity_stat.c -o CMakeFiles/lwm2mclient.dir/object_connectivity_stat.c.s
 
 CMakeFiles/lwm2mclient.dir/object_connectivity_stat.c.o.requires:
 
@@ -299,16 +299,16 @@ CMakeFiles/lwm2mclient.dir/object_connectivity_stat.c.o.provides.build: CMakeFil
 
 CMakeFiles/lwm2mclient.dir/object_access_control.c.o: CMakeFiles/lwm2mclient.dir/flags.make
 CMakeFiles/lwm2mclient.dir/object_access_control.c.o: object_access_control.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/lwm2mclient.dir/object_access_control.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/object_access_control.c.o   -c /home/pi/wakaama/examples/client/object_access_control.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/vIoThackathon/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/lwm2mclient.dir/object_access_control.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/object_access_control.c.o   -c /home/pi/vIoThackathon/wakaama/examples/client/object_access_control.c
 
 CMakeFiles/lwm2mclient.dir/object_access_control.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lwm2mclient.dir/object_access_control.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/wakaama/examples/client/object_access_control.c > CMakeFiles/lwm2mclient.dir/object_access_control.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/vIoThackathon/wakaama/examples/client/object_access_control.c > CMakeFiles/lwm2mclient.dir/object_access_control.c.i
 
 CMakeFiles/lwm2mclient.dir/object_access_control.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lwm2mclient.dir/object_access_control.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/wakaama/examples/client/object_access_control.c -o CMakeFiles/lwm2mclient.dir/object_access_control.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/vIoThackathon/wakaama/examples/client/object_access_control.c -o CMakeFiles/lwm2mclient.dir/object_access_control.c.s
 
 CMakeFiles/lwm2mclient.dir/object_access_control.c.o.requires:
 
@@ -323,16 +323,16 @@ CMakeFiles/lwm2mclient.dir/object_access_control.c.o.provides.build: CMakeFiles/
 
 CMakeFiles/lwm2mclient.dir/test_object.c.o: CMakeFiles/lwm2mclient.dir/flags.make
 CMakeFiles/lwm2mclient.dir/test_object.c.o: test_object.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/lwm2mclient.dir/test_object.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/test_object.c.o   -c /home/pi/wakaama/examples/client/test_object.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/vIoThackathon/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/lwm2mclient.dir/test_object.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/test_object.c.o   -c /home/pi/vIoThackathon/wakaama/examples/client/test_object.c
 
 CMakeFiles/lwm2mclient.dir/test_object.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lwm2mclient.dir/test_object.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/wakaama/examples/client/test_object.c > CMakeFiles/lwm2mclient.dir/test_object.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/vIoThackathon/wakaama/examples/client/test_object.c > CMakeFiles/lwm2mclient.dir/test_object.c.i
 
 CMakeFiles/lwm2mclient.dir/test_object.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lwm2mclient.dir/test_object.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/wakaama/examples/client/test_object.c -o CMakeFiles/lwm2mclient.dir/test_object.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/vIoThackathon/wakaama/examples/client/test_object.c -o CMakeFiles/lwm2mclient.dir/test_object.c.s
 
 CMakeFiles/lwm2mclient.dir/test_object.c.o.requires:
 
@@ -345,508 +345,508 @@ CMakeFiles/lwm2mclient.dir/test_object.c.o.provides: CMakeFiles/lwm2mclient.dir/
 CMakeFiles/lwm2mclient.dir/test_object.c.o.provides.build: CMakeFiles/lwm2mclient.dir/test_object.c.o
 
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/liblwm2m.c.o: CMakeFiles/lwm2mclient.dir/flags.make
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/liblwm2m.c.o: /home/pi/wakaama/core/liblwm2m.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/liblwm2m.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/liblwm2m.c.o   -c /home/pi/wakaama/core/liblwm2m.c
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/liblwm2m.c.o: CMakeFiles/lwm2mclient.dir/flags.make
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/liblwm2m.c.o: /home/pi/vIoThackathon/wakaama/core/liblwm2m.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/vIoThackathon/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/liblwm2m.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/liblwm2m.c.o   -c /home/pi/vIoThackathon/wakaama/core/liblwm2m.c
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/liblwm2m.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/liblwm2m.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/wakaama/core/liblwm2m.c > CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/liblwm2m.c.i
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/liblwm2m.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/liblwm2m.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/vIoThackathon/wakaama/core/liblwm2m.c > CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/liblwm2m.c.i
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/liblwm2m.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/liblwm2m.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/wakaama/core/liblwm2m.c -o CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/liblwm2m.c.s
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/liblwm2m.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/liblwm2m.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/vIoThackathon/wakaama/core/liblwm2m.c -o CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/liblwm2m.c.s
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/liblwm2m.c.o.requires:
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/liblwm2m.c.o.requires:
 
-.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/liblwm2m.c.o.requires
+.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/liblwm2m.c.o.requires
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/liblwm2m.c.o.provides: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/liblwm2m.c.o.requires
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/liblwm2m.c.o.provides.build
-.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/liblwm2m.c.o.provides
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/liblwm2m.c.o.provides: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/liblwm2m.c.o.requires
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/liblwm2m.c.o.provides.build
+.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/liblwm2m.c.o.provides
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/liblwm2m.c.o.provides.build: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/liblwm2m.c.o
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/liblwm2m.c.o.provides.build: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/liblwm2m.c.o
 
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/uri.c.o: CMakeFiles/lwm2mclient.dir/flags.make
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/uri.c.o: /home/pi/wakaama/core/uri.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/uri.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/uri.c.o   -c /home/pi/wakaama/core/uri.c
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/uri.c.o: CMakeFiles/lwm2mclient.dir/flags.make
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/uri.c.o: /home/pi/vIoThackathon/wakaama/core/uri.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/vIoThackathon/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/uri.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/uri.c.o   -c /home/pi/vIoThackathon/wakaama/core/uri.c
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/uri.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/uri.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/wakaama/core/uri.c > CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/uri.c.i
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/uri.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/uri.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/vIoThackathon/wakaama/core/uri.c > CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/uri.c.i
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/uri.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/uri.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/wakaama/core/uri.c -o CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/uri.c.s
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/uri.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/uri.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/vIoThackathon/wakaama/core/uri.c -o CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/uri.c.s
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/uri.c.o.requires:
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/uri.c.o.requires:
 
-.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/uri.c.o.requires
+.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/uri.c.o.requires
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/uri.c.o.provides: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/uri.c.o.requires
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/uri.c.o.provides.build
-.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/uri.c.o.provides
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/uri.c.o.provides: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/uri.c.o.requires
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/uri.c.o.provides.build
+.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/uri.c.o.provides
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/uri.c.o.provides.build: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/uri.c.o
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/uri.c.o.provides.build: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/uri.c.o
 
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/utils.c.o: CMakeFiles/lwm2mclient.dir/flags.make
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/utils.c.o: /home/pi/wakaama/core/utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/utils.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/utils.c.o   -c /home/pi/wakaama/core/utils.c
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/utils.c.o: CMakeFiles/lwm2mclient.dir/flags.make
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/utils.c.o: /home/pi/vIoThackathon/wakaama/core/utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/vIoThackathon/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/utils.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/utils.c.o   -c /home/pi/vIoThackathon/wakaama/core/utils.c
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/utils.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/utils.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/wakaama/core/utils.c > CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/utils.c.i
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/utils.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/utils.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/vIoThackathon/wakaama/core/utils.c > CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/utils.c.i
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/utils.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/utils.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/wakaama/core/utils.c -o CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/utils.c.s
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/utils.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/utils.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/vIoThackathon/wakaama/core/utils.c -o CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/utils.c.s
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/utils.c.o.requires:
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/utils.c.o.requires:
 
-.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/utils.c.o.requires
+.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/utils.c.o.requires
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/utils.c.o.provides: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/utils.c.o.requires
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/utils.c.o.provides.build
-.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/utils.c.o.provides
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/utils.c.o.provides: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/utils.c.o.requires
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/utils.c.o.provides.build
+.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/utils.c.o.provides
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/utils.c.o.provides.build: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/utils.c.o
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/utils.c.o.provides.build: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/utils.c.o
 
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/objects.c.o: CMakeFiles/lwm2mclient.dir/flags.make
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/objects.c.o: /home/pi/wakaama/core/objects.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/objects.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/objects.c.o   -c /home/pi/wakaama/core/objects.c
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/objects.c.o: CMakeFiles/lwm2mclient.dir/flags.make
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/objects.c.o: /home/pi/vIoThackathon/wakaama/core/objects.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/vIoThackathon/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/objects.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/objects.c.o   -c /home/pi/vIoThackathon/wakaama/core/objects.c
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/objects.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/objects.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/wakaama/core/objects.c > CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/objects.c.i
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/objects.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/objects.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/vIoThackathon/wakaama/core/objects.c > CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/objects.c.i
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/objects.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/objects.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/wakaama/core/objects.c -o CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/objects.c.s
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/objects.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/objects.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/vIoThackathon/wakaama/core/objects.c -o CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/objects.c.s
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/objects.c.o.requires:
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/objects.c.o.requires:
 
-.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/objects.c.o.requires
+.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/objects.c.o.requires
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/objects.c.o.provides: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/objects.c.o.requires
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/objects.c.o.provides.build
-.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/objects.c.o.provides
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/objects.c.o.provides: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/objects.c.o.requires
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/objects.c.o.provides.build
+.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/objects.c.o.provides
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/objects.c.o.provides.build: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/objects.c.o
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/objects.c.o.provides.build: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/objects.c.o
 
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/tlv.c.o: CMakeFiles/lwm2mclient.dir/flags.make
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/tlv.c.o: /home/pi/wakaama/core/tlv.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/tlv.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/tlv.c.o   -c /home/pi/wakaama/core/tlv.c
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/tlv.c.o: CMakeFiles/lwm2mclient.dir/flags.make
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/tlv.c.o: /home/pi/vIoThackathon/wakaama/core/tlv.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/vIoThackathon/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/tlv.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/tlv.c.o   -c /home/pi/vIoThackathon/wakaama/core/tlv.c
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/tlv.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/tlv.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/wakaama/core/tlv.c > CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/tlv.c.i
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/tlv.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/tlv.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/vIoThackathon/wakaama/core/tlv.c > CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/tlv.c.i
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/tlv.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/tlv.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/wakaama/core/tlv.c -o CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/tlv.c.s
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/tlv.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/tlv.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/vIoThackathon/wakaama/core/tlv.c -o CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/tlv.c.s
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/tlv.c.o.requires:
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/tlv.c.o.requires:
 
-.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/tlv.c.o.requires
+.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/tlv.c.o.requires
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/tlv.c.o.provides: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/tlv.c.o.requires
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/tlv.c.o.provides.build
-.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/tlv.c.o.provides
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/tlv.c.o.provides: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/tlv.c.o.requires
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/tlv.c.o.provides.build
+.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/tlv.c.o.provides
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/tlv.c.o.provides.build: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/tlv.c.o
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/tlv.c.o.provides.build: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/tlv.c.o
 
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/data.c.o: CMakeFiles/lwm2mclient.dir/flags.make
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/data.c.o: /home/pi/wakaama/core/data.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/data.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/data.c.o   -c /home/pi/wakaama/core/data.c
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/data.c.o: CMakeFiles/lwm2mclient.dir/flags.make
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/data.c.o: /home/pi/vIoThackathon/wakaama/core/data.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/vIoThackathon/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/data.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/data.c.o   -c /home/pi/vIoThackathon/wakaama/core/data.c
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/data.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/data.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/wakaama/core/data.c > CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/data.c.i
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/data.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/data.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/vIoThackathon/wakaama/core/data.c > CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/data.c.i
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/data.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/data.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/wakaama/core/data.c -o CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/data.c.s
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/data.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/data.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/vIoThackathon/wakaama/core/data.c -o CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/data.c.s
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/data.c.o.requires:
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/data.c.o.requires:
 
-.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/data.c.o.requires
+.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/data.c.o.requires
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/data.c.o.provides: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/data.c.o.requires
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/data.c.o.provides.build
-.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/data.c.o.provides
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/data.c.o.provides: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/data.c.o.requires
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/data.c.o.provides.build
+.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/data.c.o.provides
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/data.c.o.provides.build: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/data.c.o
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/data.c.o.provides.build: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/data.c.o
 
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/list.c.o: CMakeFiles/lwm2mclient.dir/flags.make
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/list.c.o: /home/pi/wakaama/core/list.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/list.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/list.c.o   -c /home/pi/wakaama/core/list.c
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/list.c.o: CMakeFiles/lwm2mclient.dir/flags.make
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/list.c.o: /home/pi/vIoThackathon/wakaama/core/list.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/vIoThackathon/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/list.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/list.c.o   -c /home/pi/vIoThackathon/wakaama/core/list.c
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/list.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/list.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/wakaama/core/list.c > CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/list.c.i
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/list.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/list.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/vIoThackathon/wakaama/core/list.c > CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/list.c.i
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/list.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/list.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/wakaama/core/list.c -o CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/list.c.s
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/list.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/list.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/vIoThackathon/wakaama/core/list.c -o CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/list.c.s
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/list.c.o.requires:
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/list.c.o.requires:
 
-.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/list.c.o.requires
+.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/list.c.o.requires
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/list.c.o.provides: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/list.c.o.requires
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/list.c.o.provides.build
-.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/list.c.o.provides
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/list.c.o.provides: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/list.c.o.requires
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/list.c.o.provides.build
+.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/list.c.o.provides
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/list.c.o.provides.build: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/list.c.o
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/list.c.o.provides.build: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/list.c.o
 
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/packet.c.o: CMakeFiles/lwm2mclient.dir/flags.make
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/packet.c.o: /home/pi/wakaama/core/packet.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/packet.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/packet.c.o   -c /home/pi/wakaama/core/packet.c
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/packet.c.o: CMakeFiles/lwm2mclient.dir/flags.make
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/packet.c.o: /home/pi/vIoThackathon/wakaama/core/packet.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/vIoThackathon/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/packet.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/packet.c.o   -c /home/pi/vIoThackathon/wakaama/core/packet.c
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/packet.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/packet.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/wakaama/core/packet.c > CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/packet.c.i
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/packet.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/packet.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/vIoThackathon/wakaama/core/packet.c > CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/packet.c.i
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/packet.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/packet.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/wakaama/core/packet.c -o CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/packet.c.s
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/packet.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/packet.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/vIoThackathon/wakaama/core/packet.c -o CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/packet.c.s
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/packet.c.o.requires:
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/packet.c.o.requires:
 
-.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/packet.c.o.requires
+.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/packet.c.o.requires
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/packet.c.o.provides: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/packet.c.o.requires
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/packet.c.o.provides.build
-.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/packet.c.o.provides
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/packet.c.o.provides: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/packet.c.o.requires
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/packet.c.o.provides.build
+.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/packet.c.o.provides
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/packet.c.o.provides.build: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/packet.c.o
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/packet.c.o.provides.build: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/packet.c.o
 
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/transaction.c.o: CMakeFiles/lwm2mclient.dir/flags.make
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/transaction.c.o: /home/pi/wakaama/core/transaction.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/transaction.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/transaction.c.o   -c /home/pi/wakaama/core/transaction.c
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/transaction.c.o: CMakeFiles/lwm2mclient.dir/flags.make
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/transaction.c.o: /home/pi/vIoThackathon/wakaama/core/transaction.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/vIoThackathon/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/transaction.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/transaction.c.o   -c /home/pi/vIoThackathon/wakaama/core/transaction.c
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/transaction.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/transaction.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/wakaama/core/transaction.c > CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/transaction.c.i
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/transaction.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/transaction.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/vIoThackathon/wakaama/core/transaction.c > CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/transaction.c.i
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/transaction.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/transaction.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/wakaama/core/transaction.c -o CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/transaction.c.s
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/transaction.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/transaction.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/vIoThackathon/wakaama/core/transaction.c -o CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/transaction.c.s
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/transaction.c.o.requires:
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/transaction.c.o.requires:
 
-.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/transaction.c.o.requires
+.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/transaction.c.o.requires
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/transaction.c.o.provides: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/transaction.c.o.requires
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/transaction.c.o.provides.build
-.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/transaction.c.o.provides
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/transaction.c.o.provides: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/transaction.c.o.requires
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/transaction.c.o.provides.build
+.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/transaction.c.o.provides
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/transaction.c.o.provides.build: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/transaction.c.o
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/transaction.c.o.provides.build: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/transaction.c.o
 
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/registration.c.o: CMakeFiles/lwm2mclient.dir/flags.make
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/registration.c.o: /home/pi/wakaama/core/registration.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/registration.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/registration.c.o   -c /home/pi/wakaama/core/registration.c
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/registration.c.o: CMakeFiles/lwm2mclient.dir/flags.make
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/registration.c.o: /home/pi/vIoThackathon/wakaama/core/registration.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/vIoThackathon/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/registration.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/registration.c.o   -c /home/pi/vIoThackathon/wakaama/core/registration.c
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/registration.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/registration.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/wakaama/core/registration.c > CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/registration.c.i
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/registration.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/registration.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/vIoThackathon/wakaama/core/registration.c > CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/registration.c.i
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/registration.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/registration.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/wakaama/core/registration.c -o CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/registration.c.s
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/registration.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/registration.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/vIoThackathon/wakaama/core/registration.c -o CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/registration.c.s
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/registration.c.o.requires:
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/registration.c.o.requires:
 
-.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/registration.c.o.requires
+.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/registration.c.o.requires
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/registration.c.o.provides: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/registration.c.o.requires
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/registration.c.o.provides.build
-.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/registration.c.o.provides
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/registration.c.o.provides: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/registration.c.o.requires
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/registration.c.o.provides.build
+.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/registration.c.o.provides
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/registration.c.o.provides.build: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/registration.c.o
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/registration.c.o.provides.build: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/registration.c.o
 
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/bootstrap.c.o: CMakeFiles/lwm2mclient.dir/flags.make
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/bootstrap.c.o: /home/pi/wakaama/core/bootstrap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/bootstrap.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/bootstrap.c.o   -c /home/pi/wakaama/core/bootstrap.c
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/bootstrap.c.o: CMakeFiles/lwm2mclient.dir/flags.make
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/bootstrap.c.o: /home/pi/vIoThackathon/wakaama/core/bootstrap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/vIoThackathon/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/bootstrap.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/bootstrap.c.o   -c /home/pi/vIoThackathon/wakaama/core/bootstrap.c
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/bootstrap.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/bootstrap.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/wakaama/core/bootstrap.c > CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/bootstrap.c.i
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/bootstrap.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/bootstrap.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/vIoThackathon/wakaama/core/bootstrap.c > CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/bootstrap.c.i
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/bootstrap.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/bootstrap.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/wakaama/core/bootstrap.c -o CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/bootstrap.c.s
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/bootstrap.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/bootstrap.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/vIoThackathon/wakaama/core/bootstrap.c -o CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/bootstrap.c.s
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/bootstrap.c.o.requires:
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/bootstrap.c.o.requires:
 
-.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/bootstrap.c.o.requires
+.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/bootstrap.c.o.requires
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/bootstrap.c.o.provides: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/bootstrap.c.o.requires
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/bootstrap.c.o.provides.build
-.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/bootstrap.c.o.provides
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/bootstrap.c.o.provides: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/bootstrap.c.o.requires
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/bootstrap.c.o.provides.build
+.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/bootstrap.c.o.provides
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/bootstrap.c.o.provides.build: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/bootstrap.c.o
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/bootstrap.c.o.provides.build: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/bootstrap.c.o
 
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/management.c.o: CMakeFiles/lwm2mclient.dir/flags.make
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/management.c.o: /home/pi/wakaama/core/management.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/management.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/management.c.o   -c /home/pi/wakaama/core/management.c
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/management.c.o: CMakeFiles/lwm2mclient.dir/flags.make
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/management.c.o: /home/pi/vIoThackathon/wakaama/core/management.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/vIoThackathon/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/management.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/management.c.o   -c /home/pi/vIoThackathon/wakaama/core/management.c
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/management.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/management.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/wakaama/core/management.c > CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/management.c.i
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/management.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/management.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/vIoThackathon/wakaama/core/management.c > CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/management.c.i
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/management.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/management.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/wakaama/core/management.c -o CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/management.c.s
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/management.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/management.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/vIoThackathon/wakaama/core/management.c -o CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/management.c.s
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/management.c.o.requires:
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/management.c.o.requires:
 
-.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/management.c.o.requires
+.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/management.c.o.requires
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/management.c.o.provides: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/management.c.o.requires
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/management.c.o.provides.build
-.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/management.c.o.provides
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/management.c.o.provides: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/management.c.o.requires
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/management.c.o.provides.build
+.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/management.c.o.provides
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/management.c.o.provides.build: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/management.c.o
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/management.c.o.provides.build: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/management.c.o
 
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/observe.c.o: CMakeFiles/lwm2mclient.dir/flags.make
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/observe.c.o: /home/pi/wakaama/core/observe.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/observe.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/observe.c.o   -c /home/pi/wakaama/core/observe.c
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/observe.c.o: CMakeFiles/lwm2mclient.dir/flags.make
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/observe.c.o: /home/pi/vIoThackathon/wakaama/core/observe.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/vIoThackathon/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/observe.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/observe.c.o   -c /home/pi/vIoThackathon/wakaama/core/observe.c
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/observe.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/observe.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/wakaama/core/observe.c > CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/observe.c.i
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/observe.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/observe.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/vIoThackathon/wakaama/core/observe.c > CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/observe.c.i
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/observe.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/observe.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/wakaama/core/observe.c -o CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/observe.c.s
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/observe.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/observe.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/vIoThackathon/wakaama/core/observe.c -o CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/observe.c.s
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/observe.c.o.requires:
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/observe.c.o.requires:
 
-.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/observe.c.o.requires
+.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/observe.c.o.requires
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/observe.c.o.provides: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/observe.c.o.requires
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/observe.c.o.provides.build
-.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/observe.c.o.provides
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/observe.c.o.provides: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/observe.c.o.requires
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/observe.c.o.provides.build
+.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/observe.c.o.provides
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/observe.c.o.provides.build: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/observe.c.o
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/observe.c.o.provides.build: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/observe.c.o
 
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/json.c.o: CMakeFiles/lwm2mclient.dir/flags.make
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/json.c.o: /home/pi/wakaama/core/json.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/json.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/json.c.o   -c /home/pi/wakaama/core/json.c
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/json.c.o: CMakeFiles/lwm2mclient.dir/flags.make
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/json.c.o: /home/pi/vIoThackathon/wakaama/core/json.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/vIoThackathon/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/json.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/json.c.o   -c /home/pi/vIoThackathon/wakaama/core/json.c
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/json.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/json.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/wakaama/core/json.c > CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/json.c.i
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/json.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/json.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/vIoThackathon/wakaama/core/json.c > CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/json.c.i
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/json.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/json.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/wakaama/core/json.c -o CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/json.c.s
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/json.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/json.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/vIoThackathon/wakaama/core/json.c -o CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/json.c.s
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/json.c.o.requires:
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/json.c.o.requires:
 
-.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/json.c.o.requires
+.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/json.c.o.requires
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/json.c.o.provides: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/json.c.o.requires
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/json.c.o.provides.build
-.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/json.c.o.provides
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/json.c.o.provides: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/json.c.o.requires
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/json.c.o.provides.build
+.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/json.c.o.provides
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/json.c.o.provides.build: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/json.c.o
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/json.c.o.provides.build: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/json.c.o
 
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/discover.c.o: CMakeFiles/lwm2mclient.dir/flags.make
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/discover.c.o: /home/pi/wakaama/core/discover.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/discover.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/discover.c.o   -c /home/pi/wakaama/core/discover.c
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/discover.c.o: CMakeFiles/lwm2mclient.dir/flags.make
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/discover.c.o: /home/pi/vIoThackathon/wakaama/core/discover.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/vIoThackathon/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/discover.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/discover.c.o   -c /home/pi/vIoThackathon/wakaama/core/discover.c
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/discover.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/discover.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/wakaama/core/discover.c > CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/discover.c.i
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/discover.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/discover.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/vIoThackathon/wakaama/core/discover.c > CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/discover.c.i
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/discover.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/discover.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/wakaama/core/discover.c -o CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/discover.c.s
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/discover.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/discover.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/vIoThackathon/wakaama/core/discover.c -o CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/discover.c.s
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/discover.c.o.requires:
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/discover.c.o.requires:
 
-.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/discover.c.o.requires
+.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/discover.c.o.requires
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/discover.c.o.provides: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/discover.c.o.requires
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/discover.c.o.provides.build
-.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/discover.c.o.provides
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/discover.c.o.provides: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/discover.c.o.requires
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/discover.c.o.provides.build
+.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/discover.c.o.provides
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/discover.c.o.provides.build: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/discover.c.o
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/discover.c.o.provides.build: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/discover.c.o
 
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/block1.c.o: CMakeFiles/lwm2mclient.dir/flags.make
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/block1.c.o: /home/pi/wakaama/core/block1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/block1.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/block1.c.o   -c /home/pi/wakaama/core/block1.c
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/block1.c.o: CMakeFiles/lwm2mclient.dir/flags.make
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/block1.c.o: /home/pi/vIoThackathon/wakaama/core/block1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/vIoThackathon/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/block1.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/block1.c.o   -c /home/pi/vIoThackathon/wakaama/core/block1.c
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/block1.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/block1.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/wakaama/core/block1.c > CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/block1.c.i
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/block1.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/block1.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/vIoThackathon/wakaama/core/block1.c > CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/block1.c.i
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/block1.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/block1.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/wakaama/core/block1.c -o CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/block1.c.s
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/block1.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/block1.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/vIoThackathon/wakaama/core/block1.c -o CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/block1.c.s
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/block1.c.o.requires:
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/block1.c.o.requires:
 
-.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/block1.c.o.requires
+.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/block1.c.o.requires
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/block1.c.o.provides: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/block1.c.o.requires
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/block1.c.o.provides.build
-.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/block1.c.o.provides
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/block1.c.o.provides: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/block1.c.o.requires
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/block1.c.o.provides.build
+.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/block1.c.o.provides
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/block1.c.o.provides.build: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/block1.c.o
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/block1.c.o.provides.build: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/block1.c.o
 
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/er-coap-13/er-coap-13.c.o: CMakeFiles/lwm2mclient.dir/flags.make
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/er-coap-13/er-coap-13.c.o: /home/pi/wakaama/core/er-coap-13/er-coap-13.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/er-coap-13/er-coap-13.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/er-coap-13/er-coap-13.c.o   -c /home/pi/wakaama/core/er-coap-13/er-coap-13.c
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/er-coap-13/er-coap-13.c.o: CMakeFiles/lwm2mclient.dir/flags.make
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/er-coap-13/er-coap-13.c.o: /home/pi/vIoThackathon/wakaama/core/er-coap-13/er-coap-13.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/vIoThackathon/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/er-coap-13/er-coap-13.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/er-coap-13/er-coap-13.c.o   -c /home/pi/vIoThackathon/wakaama/core/er-coap-13/er-coap-13.c
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/er-coap-13/er-coap-13.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/er-coap-13/er-coap-13.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/wakaama/core/er-coap-13/er-coap-13.c > CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/er-coap-13/er-coap-13.c.i
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/er-coap-13/er-coap-13.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/er-coap-13/er-coap-13.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/vIoThackathon/wakaama/core/er-coap-13/er-coap-13.c > CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/er-coap-13/er-coap-13.c.i
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/er-coap-13/er-coap-13.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/er-coap-13/er-coap-13.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/wakaama/core/er-coap-13/er-coap-13.c -o CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/er-coap-13/er-coap-13.c.s
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/er-coap-13/er-coap-13.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/er-coap-13/er-coap-13.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/vIoThackathon/wakaama/core/er-coap-13/er-coap-13.c -o CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/er-coap-13/er-coap-13.c.s
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/er-coap-13/er-coap-13.c.o.requires:
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/er-coap-13/er-coap-13.c.o.requires:
 
-.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/er-coap-13/er-coap-13.c.o.requires
+.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/er-coap-13/er-coap-13.c.o.requires
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/er-coap-13/er-coap-13.c.o.provides: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/er-coap-13/er-coap-13.c.o.requires
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/er-coap-13/er-coap-13.c.o.provides.build
-.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/er-coap-13/er-coap-13.c.o.provides
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/er-coap-13/er-coap-13.c.o.provides: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/er-coap-13/er-coap-13.c.o.requires
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/er-coap-13/er-coap-13.c.o.provides.build
+.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/er-coap-13/er-coap-13.c.o.provides
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/er-coap-13/er-coap-13.c.o.provides.build: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/er-coap-13/er-coap-13.c.o
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/er-coap-13/er-coap-13.c.o.provides.build: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/er-coap-13/er-coap-13.c.o
 
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/commandline.c.o: CMakeFiles/lwm2mclient.dir/flags.make
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/commandline.c.o: /home/pi/wakaama/examples/shared/commandline.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/commandline.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/commandline.c.o   -c /home/pi/wakaama/examples/shared/commandline.c
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/commandline.c.o: CMakeFiles/lwm2mclient.dir/flags.make
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/commandline.c.o: /home/pi/vIoThackathon/wakaama/examples/shared/commandline.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/vIoThackathon/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/commandline.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/commandline.c.o   -c /home/pi/vIoThackathon/wakaama/examples/shared/commandline.c
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/commandline.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/commandline.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/wakaama/examples/shared/commandline.c > CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/commandline.c.i
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/commandline.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/commandline.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/vIoThackathon/wakaama/examples/shared/commandline.c > CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/commandline.c.i
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/commandline.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/commandline.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/wakaama/examples/shared/commandline.c -o CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/commandline.c.s
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/commandline.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/commandline.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/vIoThackathon/wakaama/examples/shared/commandline.c -o CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/commandline.c.s
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/commandline.c.o.requires:
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/commandline.c.o.requires:
 
-.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/commandline.c.o.requires
+.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/commandline.c.o.requires
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/commandline.c.o.provides: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/commandline.c.o.requires
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/commandline.c.o.provides.build
-.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/commandline.c.o.provides
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/commandline.c.o.provides: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/commandline.c.o.requires
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/commandline.c.o.provides.build
+.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/commandline.c.o.provides
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/commandline.c.o.provides.build: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/commandline.c.o
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/commandline.c.o.provides.build: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/commandline.c.o
 
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/platform.c.o: CMakeFiles/lwm2mclient.dir/flags.make
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/platform.c.o: /home/pi/wakaama/examples/shared/platform.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/platform.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/platform.c.o   -c /home/pi/wakaama/examples/shared/platform.c
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/platform.c.o: CMakeFiles/lwm2mclient.dir/flags.make
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/platform.c.o: /home/pi/vIoThackathon/wakaama/examples/shared/platform.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/vIoThackathon/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/platform.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/platform.c.o   -c /home/pi/vIoThackathon/wakaama/examples/shared/platform.c
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/platform.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/platform.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/wakaama/examples/shared/platform.c > CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/platform.c.i
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/platform.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/platform.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/vIoThackathon/wakaama/examples/shared/platform.c > CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/platform.c.i
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/platform.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/platform.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/wakaama/examples/shared/platform.c -o CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/platform.c.s
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/platform.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/platform.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/vIoThackathon/wakaama/examples/shared/platform.c -o CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/platform.c.s
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/platform.c.o.requires:
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/platform.c.o.requires:
 
-.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/platform.c.o.requires
+.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/platform.c.o.requires
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/platform.c.o.provides: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/platform.c.o.requires
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/platform.c.o.provides.build
-.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/platform.c.o.provides
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/platform.c.o.provides: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/platform.c.o.requires
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/platform.c.o.provides.build
+.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/platform.c.o.provides
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/platform.c.o.provides.build: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/platform.c.o
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/platform.c.o.provides.build: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/platform.c.o
 
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/memtrace.c.o: CMakeFiles/lwm2mclient.dir/flags.make
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/memtrace.c.o: /home/pi/wakaama/examples/shared/memtrace.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/memtrace.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/memtrace.c.o   -c /home/pi/wakaama/examples/shared/memtrace.c
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/memtrace.c.o: CMakeFiles/lwm2mclient.dir/flags.make
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/memtrace.c.o: /home/pi/vIoThackathon/wakaama/examples/shared/memtrace.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/vIoThackathon/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/memtrace.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/memtrace.c.o   -c /home/pi/vIoThackathon/wakaama/examples/shared/memtrace.c
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/memtrace.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/memtrace.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/wakaama/examples/shared/memtrace.c > CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/memtrace.c.i
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/memtrace.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/memtrace.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/vIoThackathon/wakaama/examples/shared/memtrace.c > CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/memtrace.c.i
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/memtrace.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/memtrace.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/wakaama/examples/shared/memtrace.c -o CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/memtrace.c.s
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/memtrace.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/memtrace.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/vIoThackathon/wakaama/examples/shared/memtrace.c -o CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/memtrace.c.s
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/memtrace.c.o.requires:
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/memtrace.c.o.requires:
 
-.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/memtrace.c.o.requires
+.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/memtrace.c.o.requires
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/memtrace.c.o.provides: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/memtrace.c.o.requires
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/memtrace.c.o.provides.build
-.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/memtrace.c.o.provides
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/memtrace.c.o.provides: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/memtrace.c.o.requires
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/memtrace.c.o.provides.build
+.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/memtrace.c.o.provides
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/memtrace.c.o.provides.build: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/memtrace.c.o
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/memtrace.c.o.provides.build: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/memtrace.c.o
 
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/connection.c.o: CMakeFiles/lwm2mclient.dir/flags.make
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/connection.c.o: /home/pi/wakaama/examples/shared/connection.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/connection.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/connection.c.o   -c /home/pi/wakaama/examples/shared/connection.c
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/connection.c.o: CMakeFiles/lwm2mclient.dir/flags.make
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/connection.c.o: /home/pi/vIoThackathon/wakaama/examples/shared/connection.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/vIoThackathon/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/connection.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/connection.c.o   -c /home/pi/vIoThackathon/wakaama/examples/shared/connection.c
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/connection.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/connection.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/wakaama/examples/shared/connection.c > CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/connection.c.i
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/connection.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/connection.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/vIoThackathon/wakaama/examples/shared/connection.c > CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/connection.c.i
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/connection.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/connection.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/wakaama/examples/shared/connection.c -o CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/connection.c.s
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/connection.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/connection.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/vIoThackathon/wakaama/examples/shared/connection.c -o CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/connection.c.s
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/connection.c.o.requires:
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/connection.c.o.requires:
 
-.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/connection.c.o.requires
+.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/connection.c.o.requires
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/connection.c.o.provides: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/connection.c.o.requires
-	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/connection.c.o.provides.build
-.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/connection.c.o.provides
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/connection.c.o.provides: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/connection.c.o.requires
+	$(MAKE) -f CMakeFiles/lwm2mclient.dir/build.make CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/connection.c.o.provides.build
+.PHONY : CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/connection.c.o.provides
 
-CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/connection.c.o.provides.build: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/connection.c.o
+CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/connection.c.o.provides.build: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/connection.c.o
 
 
 # Object files for target lwm2mclient
@@ -863,27 +863,27 @@ lwm2mclient_OBJECTS = \
 "CMakeFiles/lwm2mclient.dir/object_connectivity_stat.c.o" \
 "CMakeFiles/lwm2mclient.dir/object_access_control.c.o" \
 "CMakeFiles/lwm2mclient.dir/test_object.c.o" \
-"CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/liblwm2m.c.o" \
-"CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/uri.c.o" \
-"CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/utils.c.o" \
-"CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/objects.c.o" \
-"CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/tlv.c.o" \
-"CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/data.c.o" \
-"CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/list.c.o" \
-"CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/packet.c.o" \
-"CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/transaction.c.o" \
-"CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/registration.c.o" \
-"CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/bootstrap.c.o" \
-"CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/management.c.o" \
-"CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/observe.c.o" \
-"CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/json.c.o" \
-"CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/discover.c.o" \
-"CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/block1.c.o" \
-"CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/er-coap-13/er-coap-13.c.o" \
-"CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/commandline.c.o" \
-"CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/platform.c.o" \
-"CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/memtrace.c.o" \
-"CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/connection.c.o"
+"CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/liblwm2m.c.o" \
+"CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/uri.c.o" \
+"CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/utils.c.o" \
+"CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/objects.c.o" \
+"CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/tlv.c.o" \
+"CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/data.c.o" \
+"CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/list.c.o" \
+"CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/packet.c.o" \
+"CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/transaction.c.o" \
+"CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/registration.c.o" \
+"CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/bootstrap.c.o" \
+"CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/management.c.o" \
+"CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/observe.c.o" \
+"CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/json.c.o" \
+"CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/discover.c.o" \
+"CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/block1.c.o" \
+"CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/er-coap-13/er-coap-13.c.o" \
+"CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/commandline.c.o" \
+"CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/platform.c.o" \
+"CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/memtrace.c.o" \
+"CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/connection.c.o"
 
 # External object files for target lwm2mclient
 lwm2mclient_EXTERNAL_OBJECTS =
@@ -900,30 +900,30 @@ lwm2mclient: CMakeFiles/lwm2mclient.dir/object_connectivity_moni.c.o
 lwm2mclient: CMakeFiles/lwm2mclient.dir/object_connectivity_stat.c.o
 lwm2mclient: CMakeFiles/lwm2mclient.dir/object_access_control.c.o
 lwm2mclient: CMakeFiles/lwm2mclient.dir/test_object.c.o
-lwm2mclient: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/liblwm2m.c.o
-lwm2mclient: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/uri.c.o
-lwm2mclient: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/utils.c.o
-lwm2mclient: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/objects.c.o
-lwm2mclient: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/tlv.c.o
-lwm2mclient: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/data.c.o
-lwm2mclient: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/list.c.o
-lwm2mclient: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/packet.c.o
-lwm2mclient: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/transaction.c.o
-lwm2mclient: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/registration.c.o
-lwm2mclient: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/bootstrap.c.o
-lwm2mclient: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/management.c.o
-lwm2mclient: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/observe.c.o
-lwm2mclient: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/json.c.o
-lwm2mclient: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/discover.c.o
-lwm2mclient: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/block1.c.o
-lwm2mclient: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/er-coap-13/er-coap-13.c.o
-lwm2mclient: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/commandline.c.o
-lwm2mclient: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/platform.c.o
-lwm2mclient: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/memtrace.c.o
-lwm2mclient: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/connection.c.o
+lwm2mclient: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/liblwm2m.c.o
+lwm2mclient: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/uri.c.o
+lwm2mclient: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/utils.c.o
+lwm2mclient: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/objects.c.o
+lwm2mclient: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/tlv.c.o
+lwm2mclient: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/data.c.o
+lwm2mclient: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/list.c.o
+lwm2mclient: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/packet.c.o
+lwm2mclient: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/transaction.c.o
+lwm2mclient: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/registration.c.o
+lwm2mclient: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/bootstrap.c.o
+lwm2mclient: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/management.c.o
+lwm2mclient: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/observe.c.o
+lwm2mclient: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/json.c.o
+lwm2mclient: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/discover.c.o
+lwm2mclient: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/block1.c.o
+lwm2mclient: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/er-coap-13/er-coap-13.c.o
+lwm2mclient: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/commandline.c.o
+lwm2mclient: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/platform.c.o
+lwm2mclient: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/memtrace.c.o
+lwm2mclient: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/connection.c.o
 lwm2mclient: CMakeFiles/lwm2mclient.dir/build.make
 lwm2mclient: CMakeFiles/lwm2mclient.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Linking C executable lwm2mclient"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/vIoThackathon/wakaama/examples/client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Linking C executable lwm2mclient"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lwm2mclient.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -943,27 +943,27 @@ CMakeFiles/lwm2mclient.dir/requires: CMakeFiles/lwm2mclient.dir/object_connectiv
 CMakeFiles/lwm2mclient.dir/requires: CMakeFiles/lwm2mclient.dir/object_connectivity_stat.c.o.requires
 CMakeFiles/lwm2mclient.dir/requires: CMakeFiles/lwm2mclient.dir/object_access_control.c.o.requires
 CMakeFiles/lwm2mclient.dir/requires: CMakeFiles/lwm2mclient.dir/test_object.c.o.requires
-CMakeFiles/lwm2mclient.dir/requires: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/liblwm2m.c.o.requires
-CMakeFiles/lwm2mclient.dir/requires: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/uri.c.o.requires
-CMakeFiles/lwm2mclient.dir/requires: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/utils.c.o.requires
-CMakeFiles/lwm2mclient.dir/requires: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/objects.c.o.requires
-CMakeFiles/lwm2mclient.dir/requires: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/tlv.c.o.requires
-CMakeFiles/lwm2mclient.dir/requires: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/data.c.o.requires
-CMakeFiles/lwm2mclient.dir/requires: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/list.c.o.requires
-CMakeFiles/lwm2mclient.dir/requires: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/packet.c.o.requires
-CMakeFiles/lwm2mclient.dir/requires: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/transaction.c.o.requires
-CMakeFiles/lwm2mclient.dir/requires: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/registration.c.o.requires
-CMakeFiles/lwm2mclient.dir/requires: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/bootstrap.c.o.requires
-CMakeFiles/lwm2mclient.dir/requires: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/management.c.o.requires
-CMakeFiles/lwm2mclient.dir/requires: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/observe.c.o.requires
-CMakeFiles/lwm2mclient.dir/requires: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/json.c.o.requires
-CMakeFiles/lwm2mclient.dir/requires: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/discover.c.o.requires
-CMakeFiles/lwm2mclient.dir/requires: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/block1.c.o.requires
-CMakeFiles/lwm2mclient.dir/requires: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/core/er-coap-13/er-coap-13.c.o.requires
-CMakeFiles/lwm2mclient.dir/requires: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/commandline.c.o.requires
-CMakeFiles/lwm2mclient.dir/requires: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/platform.c.o.requires
-CMakeFiles/lwm2mclient.dir/requires: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/memtrace.c.o.requires
-CMakeFiles/lwm2mclient.dir/requires: CMakeFiles/lwm2mclient.dir/home/pi/wakaama/examples/shared/connection.c.o.requires
+CMakeFiles/lwm2mclient.dir/requires: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/liblwm2m.c.o.requires
+CMakeFiles/lwm2mclient.dir/requires: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/uri.c.o.requires
+CMakeFiles/lwm2mclient.dir/requires: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/utils.c.o.requires
+CMakeFiles/lwm2mclient.dir/requires: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/objects.c.o.requires
+CMakeFiles/lwm2mclient.dir/requires: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/tlv.c.o.requires
+CMakeFiles/lwm2mclient.dir/requires: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/data.c.o.requires
+CMakeFiles/lwm2mclient.dir/requires: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/list.c.o.requires
+CMakeFiles/lwm2mclient.dir/requires: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/packet.c.o.requires
+CMakeFiles/lwm2mclient.dir/requires: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/transaction.c.o.requires
+CMakeFiles/lwm2mclient.dir/requires: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/registration.c.o.requires
+CMakeFiles/lwm2mclient.dir/requires: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/bootstrap.c.o.requires
+CMakeFiles/lwm2mclient.dir/requires: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/management.c.o.requires
+CMakeFiles/lwm2mclient.dir/requires: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/observe.c.o.requires
+CMakeFiles/lwm2mclient.dir/requires: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/json.c.o.requires
+CMakeFiles/lwm2mclient.dir/requires: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/discover.c.o.requires
+CMakeFiles/lwm2mclient.dir/requires: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/block1.c.o.requires
+CMakeFiles/lwm2mclient.dir/requires: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/core/er-coap-13/er-coap-13.c.o.requires
+CMakeFiles/lwm2mclient.dir/requires: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/commandline.c.o.requires
+CMakeFiles/lwm2mclient.dir/requires: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/platform.c.o.requires
+CMakeFiles/lwm2mclient.dir/requires: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/memtrace.c.o.requires
+CMakeFiles/lwm2mclient.dir/requires: CMakeFiles/lwm2mclient.dir/home/pi/vIoThackathon/wakaama/examples/shared/connection.c.o.requires
 
 .PHONY : CMakeFiles/lwm2mclient.dir/requires
 
@@ -972,6 +972,6 @@ CMakeFiles/lwm2mclient.dir/clean:
 .PHONY : CMakeFiles/lwm2mclient.dir/clean
 
 CMakeFiles/lwm2mclient.dir/depend:
-	cd /home/pi/wakaama/examples/client && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/wakaama/examples/client /home/pi/wakaama/examples/client /home/pi/wakaama/examples/client /home/pi/wakaama/examples/client /home/pi/wakaama/examples/client/CMakeFiles/lwm2mclient.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pi/vIoThackathon/wakaama/examples/client && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/vIoThackathon/wakaama/examples/client /home/pi/vIoThackathon/wakaama/examples/client /home/pi/vIoThackathon/wakaama/examples/client /home/pi/vIoThackathon/wakaama/examples/client /home/pi/vIoThackathon/wakaama/examples/client/CMakeFiles/lwm2mclient.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/lwm2mclient.dir/depend
 

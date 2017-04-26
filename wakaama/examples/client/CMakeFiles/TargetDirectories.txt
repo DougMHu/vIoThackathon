@@ -1,3 +1,3 @@
-/home/pi/wakaama/examples/client/CMakeFiles/edit_cache.dir
-/home/pi/wakaama/examples/client/CMakeFiles/rebuild_cache.dir
-/home/pi/wakaama/examples/client/CMakeFiles/lwm2mclient.dir
+/home/pi/vIoThackathon/wakaama/examples/client/CMakeFiles/edit_cache.dir
+/home/pi/vIoThackathon/wakaama/examples/client/CMakeFiles/rebuild_cache.dir
+/home/pi/vIoThackathon/wakaama/examples/client/CMakeFiles/lwm2mclient.dir

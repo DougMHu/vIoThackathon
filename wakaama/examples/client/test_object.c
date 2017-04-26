@@ -158,18 +158,45 @@ static uint8_t prv_read(uint16_t instanceId,
          
     }
 
+    // DOUG
+    // Call Python script to sample (x,y) coordinates
+    FILE *pp;
+    pp = popen("python ~/vIoThackathon/src/sample_magnetometer.py", "r");
+    double x,y;
+    if (pp != NULL) {
+        i = 0;
+        while (1) {
+            char *line;
+            char buf[1000];
+            line = fgets(buf, sizeof buf, pp);
+            if (line == NULL) break;
+            if (i==0) {
+	            x=atof(line);
+	            printf("x=%f\n", x); /* line includes '\n' */
+            } 
+            if (i==1) {
+	            y=atof(line);
+	            printf("y=%f\n", y); /* line includes '\n' */
+            } 
+            i++;
+        }
+        pclose(pp);
+    }
+
     for (i = 0 ; i < *numDataP ; i++)
     {
         fprintf(stderr, " resource id %d %d \n", (*dataArrayP)[i].id, i);
         switch ((*dataArrayP)[i].id)
         {
         case 1:
-            lwm2m_data_encode_int(targetP->test, *dataArrayP + i);
+	    lwm2m_data_encode_int(targetP->test, *dataArrayP + i);
             break;
         case 2:
             return COAP_405_METHOD_NOT_ALLOWED;
         case 3:
-            lwm2m_data_encode_float(targetP->dec, *dataArrayP + i  );
+	  //	    lwm2m_data_encode_float(targetP->dec, *dataArrayP + i  );
+	  // ERIC
+  	    lwm2m_data_encode_float(100.0, *dataArrayP + i  );
             break;
         case 5550:
             lwm2m_data_encode_int(1, *dataArrayP + i);
@@ -178,6 +205,7 @@ static uint8_t prv_read(uint16_t instanceId,
         case 5601:
         case 5602:
         case 5603:
+	    
         case 5604:
             temp = read_dht_dataTemp();
             display_test_object(objectP);
@@ -185,7 +213,9 @@ static uint8_t prv_read(uint16_t instanceId,
             fprintf(stderr, " type b4 %d \n", (*dataArrayP)->type);
             fprintf(stderr, " id b4 %d \n", (*dataArrayP)->id);
             fprintf(stderr, " value b4 %f \n", (*dataArrayP)->value);
-            lwm2m_data_encode_float((double)temp, *dataArrayP + i );
+            //lwm2m_data_encode_float((double)temp, *dataArrayP + i );
+	    //ERIC
+            lwm2m_data_encode_float(80.0, *dataArrayP + i );
             fprintf(stderr, " type aftr %d \n", (*dataArrayP)->type);
             fprintf(stderr, " id aftr %d \n", (*dataArrayP)->id);
             fprintf(stderr, " value aftr %f \n", (*dataArrayP)->value);
