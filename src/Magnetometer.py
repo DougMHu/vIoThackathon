@@ -1,6 +1,7 @@
 from i2clibraries.i2c_hmc5883l import i2c_hmc5883l
 import sys, time, argparse, logging, math
 from gpiozero import OutputDevice
+from statistics import median
 
 logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
@@ -45,6 +46,8 @@ class Magnetometer(object):
         self.hmc.setSingleShotMode()
         self.hmc.setScale(self.lower_bound)  # initialize to highest resolution
         self.factor = self.low_factor
+        # Flush out the first 5 samples (holding old samples)
+        # time.sleep(0.1)
         x, y, z = self.hmc.getAxes()
         # If scale is not large enough, lower resolution
         while any([math.isnan(i) for i in (x,y,z)]):
@@ -61,5 +64,14 @@ class Magnetometer(object):
         xGauss, yGauss, zGauss = [self.factor*i for i in (x,y,z)] # convert to Gauss
         return (xGauss, yGauss, zGauss)
 
-    def takeSamples(self, n=10, freq=5):
-        pass
+    def takeMedianSample(self, n=7, freq=7):
+        xs = []
+        ys = []
+        zs = []
+        for i in list(range(n)):
+            x, y, z = self.takeSample()
+            xs.append(x)
+            ys.append(y)
+            zs.append(z)
+            time.sleep(1/freq)
+        return (median(xs), median(ys), median(zs))
